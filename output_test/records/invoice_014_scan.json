@@ -1,0 +1,234 @@
+{
+  "file_name": "invoice_014_scan.png",
+  "doc_type": "invoice",
+  "status": "auto_approved",
+  "priority": null,
+  "reason": "All checks passed",
+  "ocr_confidence": 88.3,
+  "deskew_applied": true,
+  "dpi_used": 300,
+  "page_count": 1,
+  "fields": {
+    "vendor_name": "Mehta Printing Press",
+    "vendor_gstin": "27AAKPM8814S1Z8",
+    "invoice_no": "INV-6224",
+    "invoice_date": "2026-10-17",
+    "due_date": "2026-11-16",
+    "po_number": "PO-2026-114",
+    "line_items": [
+      {
+        "description": "Flex Banner (sq ft)",
+        "qty": 2,
+        "rate": 22.0,
+        "amount": 44.0
+      },
+      {
+        "description": "Visiting Cards (100)",
+        "qty": 20,
+        "rate": 250.0,
+        "amount": 5000.0
+      },
+      {
+        "description": "Brochures A4 (100)",
+        "qty": 2,
+        "rate": 1400.0,
+        "amount": 2800.0
+      }
+    ],
+    "subtotal": 7844.0,
+    "tax_rows": [
+      {
+        "label": "CGST @ 9%",
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 705.96
+      },
+      {
+        "label": "SGST @ 9%",
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 705.96
+      }
+    ],
+    "printed_total": 9255.92
+  },
+  "flags": [],
+  "sources": {
+    "vendor_name": {
+      "page": 1,
+      "bbox": [
+        1313,
+        1475,
+        1588,
+        1500
+      ],
+      "line": "For Mehta Printing Press",
+      "ocr_conf": 94.0
+    },
+    "vendor_gstin": {
+      "page": 1,
+      "bbox": [
+        215,
+        285,
+        1589,
+        320
+      ],
+      "line": "GSTIN: 27AAKPM8814S1Z8 Invoice Date: 17/10/2026",
+      "ocr_conf": 85.0
+    },
+    "invoice_no": {
+      "page": 1,
+      "bbox": [
+        215,
+        247,
+        1589,
+        281
+      ],
+      "line": "Mumbai, Maharashtra Invoice No: INV-6224",
+      "ocr_conf": 82.0
+    },
+    "invoice_date": {
+      "page": 1,
+      "bbox": [
+        215,
+        285,
+        1589,
+        320
+      ],
+      "line": "GSTIN: 27AAKPM8814S1Z8 Invoice Date: 17/10/2026",
+      "ocr_conf": 85.0
+    },
+    "due_date": {
+      "page": 1,
+      "bbox": [
+        1320,
+        337,
+        1589,
+        359
+      ],
+      "line": "Due Date: 16/11/2026",
+      "ocr_conf": 96.0
+    },
+    "po_number": {
+      "page": 1,
+      "bbox": [
+        1263,
+        375,
+        1589,
+        398
+      ],
+      "line": "PO Number: PO-2026-114",
+      "ocr_conf": 91.0
+    },
+    "line_items": [
+      {
+        "page": 1,
+        "bbox": [
+          221,
+          800,
+          1583,
+          827
+        ],
+        "line": "1 Flex Banner (sq ft) 2 22.00 44.00",
+        "ocr_conf": 95.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          219,
+          860,
+          1584,
+          892
+        ],
+        "line": "2 Visiting Cards (100) : 20 250.00 5,000.00",
+        "ocr_conf": 36.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          219,
+          921,
+          1582,
+          949
+        ],
+        "line": "3 Brochures A4 (100) 2 1,400.00 2,800.00",
+        "ocr_conf": 89.0
+      }
+    ],
+    "subtotal": {
+      "page": 1,
+      "bbox": [
+        1075,
+        1007,
+        1582,
+        1041
+      ],
+      "line": "Subtotal Rs. 7,844.00",
+      "ocr_conf": 95.0
+    },
+    "tax_rows": [
+      {
+        "page": 1,
+        "bbox": [
+          1075,
+          1067,
+          1582,
+          1090
+        ],
+        "line": "CGST @ 9% Rs. 705.96",
+        "ocr_conf": 91.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          1075,
+          1122,
+          1582,
+          1145
+        ],
+        "line": "SGST @'9% Rs. 705.96",
+        "ocr_conf": 17.0
+      }
+    ],
+    "printed_total": {
+      "page": 1,
+      "bbox": [
+        1074,
+        1192,
+        1582,
+        1220
+      ],
+      "line": "TOTAL Rs. 9,255.92",
+      "ocr_conf": 96.0
+    }
+  },
+  "audit_trail": [
+    {
+      "agent": "IngestionAgent",
+      "at": "2026-11-02T23:30:00",
+      "ms": 89
+    },
+    {
+      "agent": "OCRAgent",
+      "at": "2026-11-02T23:30:01",
+      "ms": 657
+    },
+    {
+      "agent": "ClassificationAgent",
+      "at": "2026-11-02T23:30:01",
+      "ms": 0
+    },
+    {
+      "agent": "ExtractionAgent",
+      "at": "2026-11-02T23:30:01",
+      "ms": 0
+    },
+    {
+      "agent": "ValidationAgent",
+      "at": "2026-11-02T23:30:01",
+      "ms": 0
+    }
+  ],
+  "processing_seconds": 0.75,
+  "source_ref": "invoice_014_scan.png#p1"
+}

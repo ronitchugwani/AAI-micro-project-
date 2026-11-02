@@ -1,0 +1,52 @@
+{
+  "file_name": "other_001_scan.png",
+  "doc_type": "other",
+  "status": "rejected",
+  "priority": null,
+  "reason": "Document is not an invoice (delivery_challan detected)",
+  "ocr_confidence": 45.3,
+  "deskew_applied": true,
+  "dpi_used": 400,
+  "page_count": 1,
+  "audit_trail": [
+    {
+      "agent": "IngestionAgent",
+      "at": "2026-11-02T23:35:02",
+      "ms": 86
+    },
+    {
+      "agent": "OCRAgent",
+      "at": "2026-11-02T23:35:03",
+      "ms": 809
+    },
+    {
+      "agent": "IngestionAgent",
+      "at": "2026-11-02T23:35:03",
+      "ms": 135,
+      "dpi": 400
+    },
+    {
+      "agent": "OCRAgent",
+      "at": "2026-11-02T23:35:04",
+      "ms": 1433
+    },
+    {
+      "agent": "Orchestrator",
+      "event": "ocr_retry",
+      "confidence_before": 75.0,
+      "confidence_after": 45.3
+    },
+    {
+      "agent": "ClassificationAgent",
+      "at": "2026-11-02T23:35:04",
+      "ms": 0
+    },
+    {
+      "agent": "Orchestrator",
+      "event": "skipped_extraction",
+      "reason": "not an invoice"
+    }
+  ],
+  "processing_seconds": 2.46,
+  "source_ref": "other_001_scan.png#p1"
+}

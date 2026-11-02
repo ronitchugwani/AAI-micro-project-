@@ -1,0 +1,270 @@
+{
+  "file_name": "invoice_006_scan.png",
+  "doc_type": "invoice",
+  "status": "needs_review",
+  "priority": "High",
+  "review_queue": "Finance - Accounts Payable",
+  "reason": "[R6] Printed total Rs. 10,622.90 does not match subtotal + tax Rs. 9,622.90 (difference Rs. 1,000.00)",
+  "ocr_confidence": 90.6,
+  "deskew_applied": true,
+  "dpi_used": 300,
+  "page_count": 1,
+  "fields": {
+    "vendor_name": "Kumar Packaging Industries",
+    "vendor_gstin": "27AADFK6612N1Z7",
+    "invoice_no": "INV-1771",
+    "invoice_date": "2026-10-02",
+    "due_date": "2026-10-17",
+    "po_number": "PO-2026-106",
+    "line_items": [
+      {
+        "description": "Packing Tape (6 rolls)",
+        "qty": 10,
+        "rate": 300.0,
+        "amount": 3000.0
+      },
+      {
+        "description": "Stretch Film Roll",
+        "qty": 4,
+        "rate": 520.0,
+        "amount": 2080.0
+      },
+      {
+        "description": "Bubble Wrap Roll",
+        "qty": 3,
+        "rate": 650.0,
+        "amount": 1950.0
+      },
+      {
+        "description": "Corrugated Box Large",
+        "qty": 25,
+        "rate": 45.0,
+        "amount": 1125.0
+      }
+    ],
+    "subtotal": 8155.0,
+    "tax_rows": [
+      {
+        "label": "CGST @ 9%",
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 733.95
+      },
+      {
+        "label": "SGST @ 9%",
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 733.95
+      }
+    ],
+    "printed_total": 10622.9
+  },
+  "flags": [
+    {
+      "rule": "R6",
+      "severity": "High",
+      "message": "Printed total Rs. 10,622.90 does not match subtotal + tax Rs. 9,622.90 (difference Rs. 1,000.00)",
+      "field": "printed_total",
+      "source": {
+        "page": 1,
+        "bbox": [
+          1073,
+          1252,
+          1581,
+          1280
+        ],
+        "line": "TOTAL Rs. 10,622.90",
+        "ocr_conf": 92.0
+      }
+    }
+  ],
+  "sources": {
+    "vendor_name": {
+      "page": 1,
+      "bbox": [
+        1233,
+        1534,
+        1587,
+        1558
+      ],
+      "line": "For Kumar Packaging Industries",
+      "ocr_conf": 96.0
+    },
+    "vendor_gstin": {
+      "page": 1,
+      "bbox": [
+        212,
+        285,
+        1586,
+        318
+      ],
+      "line": "GSTIN: 27AADFK6612N1Z7 Invoice Date: 02/10/2026",
+      "ocr_conf": 87.0
+    },
+    "invoice_no": {
+      "page": 1,
+      "bbox": [
+        213,
+        247,
+        1582,
+        279
+      ],
+      "line": "Navi Mumbai, Maharashtra Invoice No: INV-1771",
+      "ocr_conf": 90.0
+    },
+    "invoice_date": {
+      "page": 1,
+      "bbox": [
+        212,
+        285,
+        1586,
+        318
+      ],
+      "line": "GSTIN: 27AADFK6612N1Z7 Invoice Date: 02/10/2026",
+      "ocr_conf": 87.0
+    },
+    "due_date": {
+      "page": 1,
+      "bbox": [
+        1318,
+        335,
+        1586,
+        357
+      ],
+      "line": "Due Date: 17/10/2026",
+      "ocr_conf": 95.0
+    },
+    "po_number": {
+      "page": 1,
+      "bbox": [
+        1261,
+        374,
+        1586,
+        396
+      ],
+      "line": "PO Number: PO-2026-106",
+      "ocr_conf": 88.0
+    },
+    "line_items": [
+      {
+        "page": 1,
+        "bbox": [
+          220,
+          799,
+          1581,
+          826
+        ],
+        "line": "1 Packing Tape (6 rolls) 10 300.00 3,000.00",
+        "ocr_conf": 94.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          218,
+          860,
+          1581,
+          885
+        ],
+        "line": "2 Stretch Film Roll 4 520.00 2,080.00",
+        "ocr_conf": 95.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          218,
+          922,
+          1581,
+          948
+        ],
+        "line": "3 Bubble Wrap. Roll 3 650.00 1,950.00",
+        "ocr_conf": 10.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          218,
+          982,
+          1581,
+          1009
+        ],
+        "line": "4 Corrugated Box Large 25 45.00 1,125.00",
+        "ocr_conf": 96.0
+      }
+    ],
+    "subtotal": {
+      "page": 1,
+      "bbox": [
+        1074,
+        1067,
+        1581,
+        1103
+      ],
+      "line": "Subtotal Rs. 8,155.00",
+      "ocr_conf": 54.0
+    },
+    "tax_rows": [
+      {
+        "page": 1,
+        "bbox": [
+          1074,
+          1127,
+          1581,
+          1152
+        ],
+        "line": "CGST @ 9% Rs. 733.95",
+        "ocr_conf": 89.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          1074,
+          1182,
+          1581,
+          1207
+        ],
+        "line": "SGST.@ 9% Rs: 733.95",
+        "ocr_conf": 28.0
+      }
+    ],
+    "printed_total": {
+      "page": 1,
+      "bbox": [
+        1073,
+        1252,
+        1581,
+        1280
+      ],
+      "line": "TOTAL Rs. 10,622.90",
+      "ocr_conf": 92.0
+    }
+  },
+  "audit_trail": [
+    {
+      "agent": "IngestionAgent",
+      "at": "2026-11-02T23:34:52",
+      "ms": 89
+    },
+    {
+      "agent": "OCRAgent",
+      "at": "2026-11-02T23:34:53",
+      "ms": 642
+    },
+    {
+      "agent": "ClassificationAgent",
+      "at": "2026-11-02T23:34:53",
+      "ms": 0
+    },
+    {
+      "agent": "ExtractionAgent",
+      "at": "2026-11-02T23:34:53",
+      "ms": 0
+    },
+    {
+      "agent": "ValidationAgent",
+      "at": "2026-11-02T23:34:53",
+      "ms": 0
+    }
+  ],
+  "processing_seconds": 0.73,
+  "source_ref": "invoice_006_scan.png#p1"
+}

@@ -1,0 +1,236 @@
+{
+  "file_name": "invoice_008_scan.png",
+  "doc_type": "invoice",
+  "status": "needs_review",
+  "priority": "Medium",
+  "review_queue": "Finance - Accounts Payable",
+  "reason": "[R7] Due date 2026-08-31 is before invoice date 2026-09-10",
+  "ocr_confidence": 86.3,
+  "deskew_applied": true,
+  "dpi_used": 300,
+  "page_count": 1,
+  "fields": {
+    "vendor_name": "Shree Ganesh Traders",
+    "vendor_gstin": "27AAEPG4521K1Z3",
+    "invoice_no": "INV-8234",
+    "invoice_date": "2026-09-10",
+    "due_date": "2026-08-31",
+    "po_number": "PO-2026-108",
+    "line_items": [
+      {
+        "description": "Ball Pens (box of 50)",
+        "qty": 2,
+        "rate": 350.0,
+        "amount": 700.0
+      },
+      {
+        "description": "File Folders",
+        "qty": 1,
+        "rate": 25.0,
+        "amount": 25.0
+      }
+    ],
+    "subtotal": 725.0,
+    "tax_rows": [
+      {
+        "label": "CGST @ 9%",
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 65.25
+      },
+      {
+        "label": "SGST @ 9%",
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 65.25
+      }
+    ],
+    "printed_total": 855.5
+  },
+  "flags": [
+    {
+      "rule": "R7",
+      "severity": "Medium",
+      "message": "Due date 2026-08-31 is before invoice date 2026-09-10",
+      "field": "due_date",
+      "source": {
+        "page": 1,
+        "bbox": [
+          1346,
+          357,
+          1615,
+          379
+        ],
+        "line": "Due Date: 31/08/2026",
+        "ocr_conf": 96.0
+      }
+    }
+  ],
+  "sources": {
+    "vendor_name": {
+      "page": 1,
+      "bbox": [
+        1320,
+        1434,
+        1616,
+        1454
+      ],
+      "line": "For Shree Ganesh Traders",
+      "ocr_conf": 95.0
+    },
+    "vendor_gstin": {
+      "page": 1,
+      "bbox": [
+        241,
+        307,
+        1615,
+        340
+      ],
+      "line": "GSTIN: 27AAEPG4521K1Z3 Invoice Date: 10/09/2026",
+      "ocr_conf": 77.0
+    },
+    "invoice_no": {
+      "page": 1,
+      "bbox": [
+        220,
+        254,
+        1615,
+        301
+      ],
+      "line": "_ Mumbai, Maharashtra Invoice No: INV-8234",
+      "ocr_conf": 0.0
+    },
+    "invoice_date": {
+      "page": 1,
+      "bbox": [
+        241,
+        307,
+        1615,
+        340
+      ],
+      "line": "GSTIN: 27AAEPG4521K1Z3 Invoice Date: 10/09/2026",
+      "ocr_conf": 77.0
+    },
+    "due_date": {
+      "page": 1,
+      "bbox": [
+        1346,
+        357,
+        1615,
+        379
+      ],
+      "line": "Due Date: 31/08/2026",
+      "ocr_conf": 96.0
+    },
+    "po_number": {
+      "page": 1,
+      "bbox": [
+        1289,
+        396,
+        1615,
+        418
+      ],
+      "line": "PO Number: PO-2026-108",
+      "ocr_conf": 91.0
+    },
+    "line_items": [
+      {
+        "page": 1,
+        "bbox": [
+          248,
+          818,
+          1610,
+          852
+        ],
+        "line": "1 Ball Pens (box of 50) 2 350.00. 700.00",
+        "ocr_conf": 95.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          246,
+          883,
+          1610,
+          905
+        ],
+        "line": "2 File Folders 1 25.00 25.00",
+        "ocr_conf": 96.0
+      }
+    ],
+    "subtotal": {
+      "page": 1,
+      "bbox": [
+        1103,
+        967,
+        1610,
+        1003
+      ],
+      "line": "Subtotal Rs. 725.00",
+      "ocr_conf": 96.0
+    },
+    "tax_rows": [
+      {
+        "page": 1,
+        "bbox": [
+          1103,
+          1026,
+          1610,
+          1048
+        ],
+        "line": "CGST @ 9% Rs. 65.25",
+        "ocr_conf": 92.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          1103,
+          1082,
+          1610,
+          1116
+        ],
+        "line": "SGST @ 9% : Rs. 65.25",
+        "ocr_conf": 73.0
+      }
+    ],
+    "printed_total": {
+      "page": 1,
+      "bbox": [
+        1102,
+        1152,
+        1610,
+        1176
+      ],
+      "line": "TOTAL Rs. 855.50",
+      "ocr_conf": 95.0
+    }
+  },
+  "audit_trail": [
+    {
+      "agent": "IngestionAgent",
+      "at": "2026-11-02T23:29:57",
+      "ms": 92
+    },
+    {
+      "agent": "OCRAgent",
+      "at": "2026-11-02T23:29:57",
+      "ms": 501
+    },
+    {
+      "agent": "ClassificationAgent",
+      "at": "2026-11-02T23:29:57",
+      "ms": 0
+    },
+    {
+      "agent": "ExtractionAgent",
+      "at": "2026-11-02T23:29:57",
+      "ms": 0
+    },
+    {
+      "agent": "ValidationAgent",
+      "at": "2026-11-02T23:29:57",
+      "ms": 0
+    }
+  ],
+  "processing_seconds": 0.59,
+  "source_ref": "invoice_008_scan.png#p1"
+}

@@ -1,0 +1,256 @@
+{
+  "file_name": "invoice_011_photo.jpg",
+  "doc_type": "invoice",
+  "status": "auto_approved",
+  "priority": null,
+  "reason": "All checks passed",
+  "ocr_confidence": 94.8,
+  "deskew_applied": true,
+  "dpi_used": 300,
+  "page_count": 1,
+  "fields": {
+    "vendor_name": "Deccan Cleaning Supplies",
+    "vendor_gstin": "27AAJFD5530R1Z6",
+    "invoice_no": "INV-4906",
+    "invoice_date": "2026-10-03",
+    "due_date": "2026-11-02",
+    "po_number": "PO-2026-111",
+    "line_items": [
+      {
+        "description": "Floor Cleaner 5L",
+        "qty": 2,
+        "rate": 480.0,
+        "amount": 960.0
+      },
+      {
+        "description": "Hand Wash 5L",
+        "qty": 2,
+        "rate": 520.0,
+        "amount": 1040.0
+      },
+      {
+        "description": "Mop Set",
+        "qty": 1,
+        "rate": 650.0,
+        "amount": 650.0
+      }
+    ],
+    "subtotal": 2650.0,
+    "tax_rows": [
+      {
+        "label": "CGST @ 9%",
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 238.5
+      },
+      {
+        "label": "SGST @ 9%",
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 238.5
+      }
+    ],
+    "printed_total": 3127.0
+  },
+  "flags": [
+    {
+      "rule": "NOTE",
+      "severity": "Low",
+      "message": "quantity for 'Floor Cleaner 5L' was unreadable or misread; derived from amount / rate = 2",
+      "field": null,
+      "source": null
+    },
+    {
+      "rule": "NOTE",
+      "severity": "Low",
+      "message": "quantity for 'Hand Wash 5L' was unreadable or misread; derived from amount / rate = 2",
+      "field": null,
+      "source": null
+    },
+    {
+      "rule": "NOTE",
+      "severity": "Low",
+      "message": "quantity for 'Mop Set' was unreadable or misread; derived from amount / rate = 1",
+      "field": null,
+      "source": null
+    }
+  ],
+  "sources": {
+    "vendor_name": {
+      "page": 1,
+      "bbox": [
+        994,
+        1199,
+        1266,
+        1220
+      ],
+      "line": "For Deccan Cleaning Supplies",
+      "ocr_conf": 95.0
+    },
+    "vendor_gstin": {
+      "page": 1,
+      "bbox": [
+        182,
+        224,
+        461,
+        243
+      ],
+      "line": "GSTIN: 27AAJFD5530R1Z6",
+      "ocr_conf": 89.0
+    },
+    "invoice_no": {
+      "page": 1,
+      "bbox": [
+        1080,
+        205,
+        1291,
+        223
+      ],
+      "line": "Invoice No: INV-4906",
+      "ocr_conf": 92.0
+    },
+    "invoice_date": {
+      "page": 1,
+      "bbox": [
+        1043,
+        236,
+        1291,
+        254
+      ],
+      "line": "Invoice Date: 03/10/2026",
+      "ocr_conf": 96.0
+    },
+    "due_date": {
+      "page": 1,
+      "bbox": [
+        1072,
+        268,
+        1290,
+        286
+      ],
+      "line": "Due Date: 02/11/2026",
+      "ocr_conf": 95.0
+    },
+    "po_number": {
+      "page": 1,
+      "bbox": [
+        1025,
+        299,
+        1286,
+        317
+      ],
+      "line": "PO Number: PO-2026-111",
+      "ocr_conf": 91.0
+    },
+    "line_items": [
+      {
+        "page": 1,
+        "bbox": [
+          242,
+          642,
+          1276,
+          674
+        ],
+        "line": "Floor Cleaner 5L 480.00 960.00",
+        "ocr_conf": 88.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          240,
+          692,
+          1275,
+          722
+        ],
+        "line": "Hand Wash 5L 520.00 1,040.00",
+        "ocr_conf": 90.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          239,
+          742,
+          1273,
+          773
+        ],
+        "line": "Mop Set 650.00 650.00",
+        "ocr_conf": 96.0
+      }
+    ],
+    "subtotal": {
+      "page": 1,
+      "bbox": [
+        860,
+        815,
+        1271,
+        847
+      ],
+      "line": "Subtotal Rs. 2,650.00",
+      "ocr_conf": 94.0
+    },
+    "tax_rows": [
+      {
+        "page": 1,
+        "bbox": [
+          859,
+          864,
+          1270,
+          884
+        ],
+        "line": "CGST @ 9% Rs. 238.50",
+        "ocr_conf": 91.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          858,
+          909,
+          1269,
+          929
+        ],
+        "line": "SGST @ 9% Rs. 238.50",
+        "ocr_conf": 92.0
+      }
+    ],
+    "printed_total": {
+      "page": 1,
+      "bbox": [
+        856,
+        967,
+        1268,
+        991
+      ],
+      "line": "TOTAL Rs. 3,127.00",
+      "ocr_conf": 96.0
+    }
+  },
+  "audit_trail": [
+    {
+      "agent": "IngestionAgent",
+      "at": "2026-11-02T23:29:58",
+      "ms": 59
+    },
+    {
+      "agent": "OCRAgent",
+      "at": "2026-11-02T23:29:59",
+      "ms": 281
+    },
+    {
+      "agent": "ClassificationAgent",
+      "at": "2026-11-02T23:29:59",
+      "ms": 0
+    },
+    {
+      "agent": "ExtractionAgent",
+      "at": "2026-11-02T23:29:59",
+      "ms": 0
+    },
+    {
+      "agent": "ValidationAgent",
+      "at": "2026-11-02T23:29:59",
+      "ms": 0
+    }
+  ],
+  "processing_seconds": 0.34,
+  "source_ref": "invoice_011_photo.jpg#p1"
+}

@@ -1,0 +1,236 @@
+{
+  "file_name": "invoice_015_scan.png",
+  "doc_type": "invoice",
+  "status": "needs_review",
+  "priority": "High",
+  "review_queue": "Finance - Accounts Payable",
+  "reason": "[R6] Printed total Rs. 2,944.00 does not match subtotal + tax Rs. 944.00 (difference Rs. 2,000.00)",
+  "ocr_confidence": 87.1,
+  "deskew_applied": true,
+  "dpi_used": 300,
+  "page_count": 1,
+  "fields": {
+    "vendor_name": "Patel Stationery Mart",
+    "vendor_gstin": "27ABHPP7781L1Z9",
+    "invoice_no": "INV-3122",
+    "invoice_date": "2026-10-18",
+    "due_date": "2026-12-02",
+    "po_number": "PO-2026-115",
+    "line_items": [
+      {
+        "description": "Sticky Notes Pad",
+        "qty": 10,
+        "rate": 35.0,
+        "amount": 350.0
+      },
+      {
+        "description": "M4 Desk Organiser",
+        "qty": 1,
+        "rate": 450.0,
+        "amount": 450.0
+      }
+    ],
+    "subtotal": 800.0,
+    "tax_rows": [
+      {
+        "label": "CGST @ 9%",
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 72.0
+      },
+      {
+        "label": "SGST @ 9%",
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 72.0
+      }
+    ],
+    "printed_total": 2944.0
+  },
+  "flags": [
+    {
+      "rule": "R6",
+      "severity": "High",
+      "message": "Printed total Rs. 2,944.00 does not match subtotal + tax Rs. 944.00 (difference Rs. 2,000.00)",
+      "field": "printed_total",
+      "source": {
+        "page": 1,
+        "bbox": [
+          1032,
+          1101,
+          1540,
+          1128
+        ],
+        "line": "TOTAL Rs. 2,944.00",
+        "ocr_conf": 67.0
+      }
+    }
+  ],
+  "sources": {
+    "vendor_name": {
+      "page": 1,
+      "bbox": [
+        1271,
+        1383,
+        1546,
+        1407
+      ],
+      "line": "For Patel Stationery Mart",
+      "ocr_conf": 95.0
+    },
+    "vendor_gstin": {
+      "page": 1,
+      "bbox": [
+        171,
+        256,
+        1545,
+        289
+      ],
+      "line": "GSTIN: 27ABHPP7781L1Z9 Invoice Date: 18/10/2026",
+      "ocr_conf": 91.0
+    },
+    "invoice_no": {
+      "page": 1,
+      "bbox": [
+        171,
+        218,
+        1545,
+        250
+      ],
+      "line": "Thane, Maharashtra Invoice No: INV-3122",
+      "ocr_conf": 91.0
+    },
+    "invoice_date": {
+      "page": 1,
+      "bbox": [
+        171,
+        256,
+        1545,
+        289
+      ],
+      "line": "GSTIN: 27ABHPP7781L1Z9 Invoice Date: 18/10/2026",
+      "ocr_conf": 91.0
+    },
+    "due_date": {
+      "page": 1,
+      "bbox": [
+        1276,
+        306,
+        1546,
+        328
+      ],
+      "line": "Due Date: 02/12/2026",
+      "ocr_conf": 96.0
+    },
+    "po_number": {
+      "page": 1,
+      "bbox": [
+        1220,
+        345,
+        1545,
+        368
+      ],
+      "line": "PO Number: PO-2026-115",
+      "ocr_conf": 91.0
+    },
+    "line_items": [
+      {
+        "page": 1,
+        "bbox": [
+          179,
+          770,
+          1540,
+          797
+        ],
+        "line": "1 Sticky Notes Pad 10 35.00 350.00",
+        "ocr_conf": 89.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          177,
+          828,
+          1540,
+          864
+        ],
+        "line": "M4 Desk Organiser : 1 450.00 450.00",
+        "ocr_conf": 18.0
+      }
+    ],
+    "subtotal": {
+      "page": 1,
+      "bbox": [
+        1033,
+        916,
+        1540,
+        952
+      ],
+      "line": "Subtotal Rs. 800.00",
+      "ocr_conf": 23.0
+    },
+    "tax_rows": [
+      {
+        "page": 1,
+        "bbox": [
+          1033,
+          974,
+          1540,
+          998
+        ],
+        "line": "CGST @ 9% Rs. 72.00",
+        "ocr_conf": 90.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          1033,
+          1027,
+          1540,
+          1057
+        ],
+        "line": "SGST @ 9% Rs. 72.00",
+        "ocr_conf": 92.0
+      }
+    ],
+    "printed_total": {
+      "page": 1,
+      "bbox": [
+        1032,
+        1101,
+        1540,
+        1128
+      ],
+      "line": "TOTAL Rs. 2,944.00",
+      "ocr_conf": 67.0
+    }
+  },
+  "audit_trail": [
+    {
+      "agent": "IngestionAgent",
+      "at": "2026-11-02T23:30:01",
+      "ms": 87
+    },
+    {
+      "agent": "OCRAgent",
+      "at": "2026-11-02T23:30:01",
+      "ms": 688
+    },
+    {
+      "agent": "ClassificationAgent",
+      "at": "2026-11-02T23:30:01",
+      "ms": 0
+    },
+    {
+      "agent": "ExtractionAgent",
+      "at": "2026-11-02T23:30:01",
+      "ms": 0
+    },
+    {
+      "agent": "ValidationAgent",
+      "at": "2026-11-02T23:30:01",
+      "ms": 0
+    }
+  ],
+  "processing_seconds": 0.78,
+  "source_ref": "invoice_015_scan.png#p1"
+}

@@ -1,0 +1,280 @@
+{
+  "file_name": "invoice_013_photo.jpg",
+  "doc_type": "invoice",
+  "status": "auto_approved",
+  "priority": null,
+  "reason": "All checks passed",
+  "ocr_confidence": 94.8,
+  "deskew_applied": false,
+  "dpi_used": 300,
+  "page_count": 1,
+  "fields": {
+    "vendor_name": "Kumar Packaging Industries",
+    "vendor_gstin": "27AADFK6612N1Z7",
+    "invoice_no": "INV-4899",
+    "invoice_date": "2026-09-05",
+    "due_date": "2026-10-20",
+    "po_number": "PO-2026-113",
+    "line_items": [
+      {
+        "description": "Bubble Wrap Roll",
+        "qty": 4,
+        "rate": 650.0,
+        "amount": 2600.0
+      },
+      {
+        "description": "Corrugated Box Large",
+        "qty": 2,
+        "rate": 45.0,
+        "amount": 90.0
+      },
+      {
+        "description": "Packing Tape (6 rolls)",
+        "qty": 1,
+        "rate": 300.0,
+        "amount": 300.0
+      },
+      {
+        "description": "Stretch Film Roll",
+        "qty": 10,
+        "rate": 520.0,
+        "amount": 5200.0
+      }
+    ],
+    "subtotal": 8190.0,
+    "tax_rows": [
+      {
+        "label": "CGST @ 9%",
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 737.1
+      },
+      {
+        "label": "SGST @ 9%",
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 737.1
+      }
+    ],
+    "printed_total": 9664.2
+  },
+  "flags": [
+    {
+      "rule": "NOTE",
+      "severity": "Low",
+      "message": "quantity for 'Bubble Wrap Roll' was unreadable or misread; derived from amount / rate = 4",
+      "field": null,
+      "source": null
+    },
+    {
+      "rule": "NOTE",
+      "severity": "Low",
+      "message": "quantity for 'Corrugated Box Large' was unreadable or misread; derived from amount / rate = 2",
+      "field": null,
+      "source": null
+    },
+    {
+      "rule": "NOTE",
+      "severity": "Low",
+      "message": "quantity for 'Packing Tape (6 rolls)' was unreadable or misread; derived from amount / rate = 1",
+      "field": null,
+      "source": null
+    },
+    {
+      "rule": "NOTE",
+      "severity": "Low",
+      "message": "quantity for 'Stretch Film Roll' was unreadable or misread; derived from amount / rate = 10",
+      "field": null,
+      "source": null
+    }
+  ],
+  "sources": {
+    "vendor_name": {
+      "page": 1,
+      "bbox": [
+        964,
+        1263,
+        1258,
+        1284
+      ],
+      "line": "For Kumar Packaging Industries",
+      "ocr_conf": 91.0
+    },
+    "vendor_gstin": {
+      "page": 1,
+      "bbox": [
+        123,
+        233,
+        404,
+        257
+      ],
+      "line": "GSTIN: 27AADFK6612N1Z7",
+      "ocr_conf": 81.0
+    },
+    "invoice_no": {
+      "page": 1,
+      "bbox": [
+        1028,
+        188,
+        1247,
+        210
+      ],
+      "line": "Invoice No: INV-4899",
+      "ocr_conf": 93.0
+    },
+    "invoice_date": {
+      "page": 1,
+      "bbox": [
+        991,
+        221,
+        1248,
+        244
+      ],
+      "line": "Invoice Date: 05/09/2026",
+      "ocr_conf": 95.0
+    },
+    "due_date": {
+      "page": 1,
+      "bbox": [
+        1022,
+        254,
+        1248,
+        277
+      ],
+      "line": "Due Date: 20/10/2026",
+      "ocr_conf": 96.0
+    },
+    "po_number": {
+      "page": 1,
+      "bbox": [
+        975,
+        287,
+        1248,
+        310
+      ],
+      "line": "PO Number: PO-2026-113",
+      "ocr_conf": 92.0
+    },
+    "line_items": [
+      {
+        "page": 1,
+        "bbox": [
+          203,
+          649,
+          1247,
+          682
+        ],
+        "line": "Bubble Wrap Roll 650.00 2,600.00",
+        "ocr_conf": 93.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          204,
+          700,
+          1248,
+          732
+        ],
+        "line": "Corrugated Box Large 45.00 90.00",
+        "ocr_conf": 96.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          206,
+          751,
+          1248,
+          782
+        ],
+        "line": "Packing Tape (6 rolls) 300.00 300.00",
+        "ocr_conf": 95.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          207,
+          803,
+          1249,
+          828
+        ],
+        "line": "Stretch Film Roll 520.00 5,200.00",
+        "ocr_conf": 95.0
+      }
+    ],
+    "subtotal": {
+      "page": 1,
+      "bbox": [
+        829,
+        875,
+        1249,
+        907
+      ],
+      "line": "Subtotal Rs. 8,190.00",
+      "ocr_conf": 96.0
+    },
+    "tax_rows": [
+      {
+        "page": 1,
+        "bbox": [
+          830,
+          924,
+          1250,
+          946
+        ],
+        "line": "CGST @ 9% Rs. 737.10",
+        "ocr_conf": 89.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          831,
+          970,
+          1250,
+          992
+        ],
+        "line": "SGST @ 9% Rs. 737.10",
+        "ocr_conf": 90.0
+      }
+    ],
+    "printed_total": {
+      "page": 1,
+      "bbox": [
+        830,
+        1030,
+        1251,
+        1053
+      ],
+      "line": "TOTAL Rs. 9,664.20",
+      "ocr_conf": 95.0
+    }
+  },
+  "audit_trail": [
+    {
+      "agent": "IngestionAgent",
+      "at": "2026-11-02T23:32:20",
+      "ms": 33
+    },
+    {
+      "agent": "OCRAgent",
+      "at": "2026-11-02T23:32:21",
+      "ms": 291
+    },
+    {
+      "agent": "ClassificationAgent",
+      "at": "2026-11-02T23:32:21",
+      "ms": 0
+    },
+    {
+      "agent": "ExtractionAgent",
+      "at": "2026-11-02T23:32:21",
+      "ms": 0
+    },
+    {
+      "agent": "ValidationAgent",
+      "at": "2026-11-02T23:32:21",
+      "ms": 0
+    }
+  ],
+  "processing_seconds": 0.32,
+  "source_ref": "invoice_013_photo.jpg#p1"
+}

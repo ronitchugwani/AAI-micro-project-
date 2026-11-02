@@ -1,0 +1,25 @@
+file_name,format,doc_type,vendor_name,invoice_no,invoice_date,due_date,po_number,subtotal,printed_total,correct_total,planted_error,expected_status,error_note
+invoice_001.pdf,pdf,invoice,Mehta Printing Press,INV-8601,2026-10-09,2026-10-24,PO-2026-101,8422.0,9937.96,9937.96,none,auto_approved,
+invoice_002.pdf,pdf,invoice,Balaji Enterprises,INV-2392,2026-09-01,2026-10-16,PO-2026-102,22250.0,26255.0,26255.0,unregistered_vendor,needs_review,Vendor is not in vendors.csv.
+invoice_003.pdf,pdf,invoice,Mehta Printing Press,INV-2768,2026-09-02,2026-09-17,PO-2026-951,20670.0,24390.6,24390.6,invalid_po_number,needs_review,PO number does not exist in purchase_orders.csv.
+invoice_004.pdf,pdf,invoice,Patel Stationery Mart,INV-7151,2026-09-04,2026-10-04,PO-2026-104,2715.0,3203.7,3203.7,none,auto_approved,
+invoice_005.pdf,pdf,invoice,Deccan Cleaning Supplies,INV-1248,2026-09-20,2026-10-20,PO-2026-105,4900.0,5782.0,5782.0,none,auto_approved,
+invoice_006.pdf,pdf,invoice,Deccan Cleaning Supplies,INV-8976,2026-09-04,2026-10-04,PO-2026-106,1520.0,1930.4,1793.6,duplicate_tax_row,needs_review,"SGST row printed twice, inflating total by Rs.136.80."
+invoice_007.pdf,pdf,invoice,Om Sai Electricals,INV-5420,2026-09-14,2026-09-29,PO-2026-107,16000.0,20880.0,18880.0,total_mismatch,needs_review,"Printed total is Rs.2,000.00 higher than subtotal + tax."
+invoice_008_scan.png,scan,invoice,Shree Ganesh Traders,INV-8234,2026-09-10,2026-08-31,PO-2026-108,725.0,855.5,855.5,due_before_invoice_date,needs_review,Due date is earlier than invoice date.
+invoice_009.pdf,pdf,invoice,Sharma Furniture Works,INV-3084,2026-10-10,2026-11-09,PO-2026-109,19600.0,23128.0,23128.0,none,auto_approved,
+invoice_010.pdf,pdf,invoice,Mehta Printing Press,INV-4220,2026-09-11,2026-10-26,PO-2026-110,15688.0,18511.84,18511.84,none,auto_approved,
+invoice_011_photo.jpg,photo,invoice,Deccan Cleaning Supplies,INV-4906,2026-10-03,2026-11-02,PO-2026-111,2650.0,3127.0,3127.0,none,auto_approved,
+invoice_012_photo.jpg,photo,invoice,Om Sai Electricals,INV-2133,2026-10-18,2026-11-02,PO-2026-112,13060.0,15410.8,15410.8,none,auto_approved,
+invoice_013_scan.png,scan,invoice,Om Sai Electricals,INV-1574,2026-10-08,2026-10-23,PO-2026-113,12200.0,14396.0,14396.0,none,auto_approved,
+invoice_014_scan.png,scan,invoice,Mehta Printing Press,INV-6224,2026-10-17,2026-11-16,PO-2026-114,7844.0,9255.92,9255.92,none,auto_approved,
+invoice_015_scan.png,scan,invoice,Patel Stationery Mart,INV-3122,2026-10-18,2026-12-02,PO-2026-115,800.0,2944.0,944.0,total_mismatch,needs_review,"Printed total is Rs.2,000.00 higher than subtotal + tax."
+invoice_016.pdf,pdf,invoice,Mehta Printing Press,INV-7264,2026-10-10,2026-11-24,PO-2026-116,28250.0,33335.0,33335.0,none,auto_approved,
+invoice_017_scan.png,scan,invoice,Deccan Cleaning Supplies,INV-7364,2026-10-17,2026-11-16,PO-2026-117,10690.0,12614.2,12614.2,none,auto_approved,
+invoice_018_photo.jpg,photo,invoice,Royal Tech Distributors,INV-2849,2026-09-02,2026-09-17,PO-2026-118,27450.0,32391.0,32391.0,unregistered_vendor,needs_review,Vendor is not in vendors.csv.
+invoice_019.pdf,pdf,invoice,Kumar Packaging Industries,INV-8059,2026-09-13,2026-10-28,PO-2026-119,44125.0,52067.5,52067.5,high_value_over_50000,needs_review,"Invoice total exceeds the Rs.50,000 approval threshold."
+invoice_020_photo.jpg,photo,invoice,Kumar Packaging Industries,INV-9134,2026-09-09,2026-09-24,PO-2026-120,5380.0,6509.8,6348.4,tax_rate_error,needs_review,CGST amount is computed at 12% although the label says 9%.
+invoice_021.pdf,pdf,invoice,Mehta Printing Press,,2026-10-14,2026-11-13,PO-2026-121,24514.0,28926.52,28926.52,missing_invoice_number,needs_review,Invoice number field is blank.
+invoice_022_scan.png,scan,invoice,Sharma Furniture Works,INV-1313,2026-09-23,2026-10-23,PO-2026-122,27700.0,35179.0,32686.0,duplicate_tax_row,needs_review,"SGST row printed twice, inflating total by Rs.2,493.00."
+other_001_scan.png,scan,delivery_challan,Deccan Cleaning Supplies,,,,,,,,not_an_invoice,rejected,Not an invoice; classifier should reject.
+other_002.pdf,pdf,quotation_letter,Om Sai Electricals,,,,,,,,not_an_invoice,rejected,Not an invoice; classifier should reject.

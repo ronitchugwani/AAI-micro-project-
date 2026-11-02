@@ -1,0 +1,259 @@
+{
+  "file_name": "invoice_009_scan.png",
+  "doc_type": "invoice",
+  "status": "auto_approved",
+  "priority": null,
+  "reason": "All checks passed",
+  "ocr_confidence": 90.9,
+  "deskew_applied": false,
+  "dpi_used": 300,
+  "page_count": 1,
+  "fields": {
+    "vendor_name": "Patel Stationery Mart",
+    "vendor_gstin": "27ABHPP7781L1Z9",
+    "invoice_no": "INV-6310",
+    "invoice_date": "2026-09-01",
+    "due_date": "2026-10-16",
+    "po_number": "PO-2026-109",
+    "line_items": [
+      {
+        "description": "Desk Organiser",
+        "qty": 10,
+        "rate": 450.0,
+        "amount": 4500.0
+      },
+      {
+        "description": "Sticky Notes Pad",
+        "qty": 3,
+        "rate": 35.0,
+        "amount": 105.0
+      },
+      {
+        "description": "Whiteboard Markers (set)",
+        "qty": 25,
+        "rate": 220.0,
+        "amount": 5500.0
+      },
+      {
+        "description": "Spiral Notebooks",
+        "qty": 25,
+        "rate": 60.0,
+        "amount": 1500.0
+      }
+    ],
+    "subtotal": 11605.0,
+    "tax_rows": [
+      {
+        "label": "CGST @ 9%",
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 1044.45
+      },
+      {
+        "label": "SGST @ 9%",
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 1044.45
+      }
+    ],
+    "printed_total": 13693.9
+  },
+  "flags": [
+    {
+      "rule": "NOTE",
+      "severity": "Low",
+      "message": "line 'Spiral Notebooks' was re-read from an enlarged crop (first reading: '4 Spiral Notebooks 25 60.00 4,500.00')",
+      "field": null,
+      "source": null
+    }
+  ],
+  "sources": {
+    "vendor_name": {
+      "page": 1,
+      "bbox": [
+        1240,
+        1485,
+        1516,
+        1509
+      ],
+      "line": "For Patel Stationery Mart",
+      "ocr_conf": 92.0
+    },
+    "vendor_gstin": {
+      "page": 1,
+      "bbox": [
+        143,
+        234,
+        1516,
+        268
+      ],
+      "line": "GSTIN: 27ABHPP7781L1Z9 Invoice Date: 01/09/2026",
+      "ocr_conf": 82.0
+    },
+    "invoice_no": {
+      "page": 1,
+      "bbox": [
+        142,
+        196,
+        1516,
+        231
+      ],
+      "line": "Thane, Maharashtra : : Invoice: No: INV-6310",
+      "ocr_conf": 56.0
+    },
+    "invoice_date": {
+      "page": 1,
+      "bbox": [
+        143,
+        234,
+        1516,
+        268
+      ],
+      "line": "GSTIN: 27ABHPP7781L1Z9 Invoice Date: 01/09/2026",
+      "ocr_conf": 82.0
+    },
+    "due_date": {
+      "page": 1,
+      "bbox": [
+        1248,
+        286,
+        1516,
+        307
+      ],
+      "line": "Due Date: 16/10/2026",
+      "ocr_conf": 95.0
+    },
+    "po_number": {
+      "page": 1,
+      "bbox": [
+        1191,
+        324,
+        1516,
+        346
+      ],
+      "line": "PO Number: PO-2026-109",
+      "ocr_conf": 90.0
+    },
+    "line_items": [
+      {
+        "page": 1,
+        "bbox": [
+          149,
+          748,
+          1510,
+          782
+        ],
+        "line": "1 Desk Organiser : 10 450.00 4,500.00",
+        "ocr_conf": 46.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          147,
+          809,
+          1510,
+          837
+        ],
+        "line": "2 Sticky Notes Pad 3 35.00 105.00",
+        "ocr_conf": 96.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          147,
+          870,
+          1510,
+          898
+        ],
+        "line": "3 Whiteboard Markers (set) 25 220.00. 5,500.00",
+        "ocr_conf": 24.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          147,
+          931,
+          1510,
+          959
+        ],
+        "line": "4 Spiral Notebooks 25 60.00 4,500.00",
+        "ocr_conf": 41.0
+      }
+    ],
+    "subtotal": {
+      "page": 1,
+      "bbox": [
+        1003,
+        1017,
+        1510,
+        1051
+      ],
+      "line": "Subtotal Rs. 11,605.00",
+      "ocr_conf": 95.0
+    },
+    "tax_rows": [
+      {
+        "page": 1,
+        "bbox": [
+          1003,
+          1077,
+          1510,
+          1103
+        ],
+        "line": "CGST @ 9% Rs.'1,044.45",
+        "ocr_conf": 10.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          1003,
+          1132,
+          1511,
+          1158
+        ],
+        "line": "SGST @ 9% Rs. 1,044.45",
+        "ocr_conf": 91.0
+      }
+    ],
+    "printed_total": {
+      "page": 1,
+      "bbox": [
+        1002,
+        1202,
+        1510,
+        1231
+      ],
+      "line": "TOTAL Rs. 13,693.90",
+      "ocr_conf": 95.0
+    }
+  },
+  "audit_trail": [
+    {
+      "agent": "IngestionAgent",
+      "at": "2026-11-02T23:34:54",
+      "ms": 49
+    },
+    {
+      "agent": "OCRAgent",
+      "at": "2026-11-02T23:34:54",
+      "ms": 702
+    },
+    {
+      "agent": "ClassificationAgent",
+      "at": "2026-11-02T23:34:54",
+      "ms": 0
+    },
+    {
+      "agent": "ExtractionAgent",
+      "at": "2026-11-02T23:34:54",
+      "ms": 0
+    },
+    {
+      "agent": "ValidationAgent",
+      "at": "2026-11-02T23:34:54",
+      "ms": 0
+    }
+  ],
+  "processing_seconds": 0.75,
+  "source_ref": "invoice_009_scan.png#p1"
+}

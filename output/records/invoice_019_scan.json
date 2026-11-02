@@ -1,0 +1,217 @@
+{
+  "file_name": "invoice_019_scan.png",
+  "doc_type": "invoice",
+  "status": "auto_approved",
+  "priority": null,
+  "reason": "All checks passed",
+  "ocr_confidence": 90.9,
+  "deskew_applied": true,
+  "dpi_used": 300,
+  "page_count": 1,
+  "fields": {
+    "vendor_name": "Mehta Printing Press",
+    "vendor_gstin": "27AAKPM8814S1Z8",
+    "invoice_no": "INV-9883",
+    "invoice_date": "2026-10-08",
+    "due_date": "2026-11-22",
+    "po_number": "PO-2026-119",
+    "line_items": [
+      {
+        "description": "Letterheads (500)",
+        "qty": 4,
+        "rate": 1800.0,
+        "amount": 7200.0
+      },
+      {
+        "description": "Brochures A4 (100)",
+        "qty": 1,
+        "rate": 1400.0,
+        "amount": 1400.0
+      }
+    ],
+    "subtotal": 8600.0,
+    "tax_rows": [
+      {
+        "label": "CGST @ 9%",
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 774.0
+      },
+      {
+        "label": "SGST @ 9%",
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 774.0
+      }
+    ],
+    "printed_total": 10148.0
+  },
+  "flags": [],
+  "sources": {
+    "vendor_name": {
+      "page": 1,
+      "bbox": [
+        1332,
+        1426,
+        1606,
+        1450
+      ],
+      "line": "For Mehta Printing Press",
+      "ocr_conf": 96.0
+    },
+    "vendor_gstin": {
+      "page": 1,
+      "bbox": [
+        231,
+        299,
+        1605,
+        332
+      ],
+      "line": "GSTIN: 27AAKPM8814S1Z8 Invoice Date: 08/10/2026",
+      "ocr_conf": 89.0
+    },
+    "invoice_no": {
+      "page": 1,
+      "bbox": [
+        232,
+        261,
+        1604,
+        292
+      ],
+      "line": "Mumbai, Maharashtra : Invoice No: INV-9883",
+      "ocr_conf": 67.0
+    },
+    "invoice_date": {
+      "page": 1,
+      "bbox": [
+        231,
+        299,
+        1605,
+        332
+      ],
+      "line": "GSTIN: 27AAKPM8814S1Z8 Invoice Date: 08/10/2026",
+      "ocr_conf": 89.0
+    },
+    "due_date": {
+      "page": 1,
+      "bbox": [
+        1336,
+        347,
+        1605,
+        371
+      ],
+      "line": "Due Date: 22/11/2026",
+      "ocr_conf": 96.0
+    },
+    "po_number": {
+      "page": 1,
+      "bbox": [
+        1279,
+        387,
+        1605,
+        409
+      ],
+      "line": "PO Number: PO-2026-119",
+      "ocr_conf": 92.0
+    },
+    "line_items": [
+      {
+        "page": 1,
+        "bbox": [
+          238,
+          813,
+          1600,
+          840
+        ],
+        "line": "1 Letterheads (500) : 4 1,800.00 7,200.00",
+        "ocr_conf": 52.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          237,
+          874,
+          1599,
+          901
+        ],
+        "line": "2 Brochures A4 (100) 1 1,400.00 1,400.00",
+        "ocr_conf": 91.0
+      }
+    ],
+    "subtotal": {
+      "page": 1,
+      "bbox": [
+        1093,
+        958,
+        1600,
+        995
+      ],
+      "line": "Subtotal Rs. 8,600.00",
+      "ocr_conf": 95.0
+    },
+    "tax_rows": [
+      {
+        "page": 1,
+        "bbox": [
+          1093,
+          1018,
+          1600,
+          1043
+        ],
+        "line": "CGST @ 9% Rs. 774.00",
+        "ocr_conf": 87.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          1093,
+          1074,
+          1600,
+          1099
+        ],
+        "line": "SGST @ 9% Rs. 774.00",
+        "ocr_conf": 91.0
+      }
+    ],
+    "printed_total": {
+      "page": 1,
+      "bbox": [
+        1092,
+        1139,
+        1600,
+        1172
+      ],
+      "line": "TOTAL. Rs. 10,148.00",
+      "ocr_conf": 33.0
+    }
+  },
+  "audit_trail": [
+    {
+      "agent": "IngestionAgent",
+      "at": "2026-11-02T23:32:23",
+      "ms": 91
+    },
+    {
+      "agent": "OCRAgent",
+      "at": "2026-11-02T23:32:24",
+      "ms": 528
+    },
+    {
+      "agent": "ClassificationAgent",
+      "at": "2026-11-02T23:32:24",
+      "ms": 0
+    },
+    {
+      "agent": "ExtractionAgent",
+      "at": "2026-11-02T23:32:24",
+      "ms": 0
+    },
+    {
+      "agent": "ValidationAgent",
+      "at": "2026-11-02T23:32:24",
+      "ms": 0
+    }
+  ],
+  "processing_seconds": 0.62,
+  "source_ref": "invoice_019_scan.png#p1"
+}

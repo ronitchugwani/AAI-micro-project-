@@ -1,0 +1,270 @@
+{
+  "file_name": "invoice_003.pdf",
+  "doc_type": "invoice",
+  "status": "needs_review",
+  "priority": "Medium",
+  "review_queue": "Finance - Accounts Payable",
+  "reason": "[R9] PO number PO-2026-951 does not exist in the purchase-order list",
+  "ocr_confidence": 95.0,
+  "deskew_applied": false,
+  "dpi_used": 300,
+  "page_count": 1,
+  "fields": {
+    "vendor_name": "Mehta Printing Press",
+    "vendor_gstin": "27AAKPM8814S1Z8",
+    "invoice_no": "INV-2768",
+    "invoice_date": "2026-09-02",
+    "due_date": "2026-09-17",
+    "po_number": "PO-2026-951",
+    "line_items": [
+      {
+        "description": "Flex Banner (sq ft)",
+        "qty": 10,
+        "rate": 22.0,
+        "amount": 220.0
+      },
+      {
+        "description": "Letterheads (500)",
+        "qty": 4,
+        "rate": 1800.0,
+        "amount": 7200.0
+      },
+      {
+        "description": "Visiting Cards (100)",
+        "qty": 25,
+        "rate": 250.0,
+        "amount": 6250.0
+      },
+      {
+        "description": "Brochures A4 (100)",
+        "qty": 5,
+        "rate": 1400.0,
+        "amount": 7000.0
+      }
+    ],
+    "subtotal": 20670.0,
+    "tax_rows": [
+      {
+        "label": "CGST @ 9%",
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 1860.3
+      },
+      {
+        "label": "SGST @ 9%",
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 1860.3
+      }
+    ],
+    "printed_total": 24390.6
+  },
+  "flags": [
+    {
+      "rule": "R9",
+      "severity": "Medium",
+      "message": "PO number PO-2026-951 does not exist in the purchase-order list",
+      "field": "po_number",
+      "source": {
+        "page": 1,
+        "bbox": [
+          1782,
+          485,
+          2263,
+          517
+        ],
+        "line": "PO Number: PO-2026-951",
+        "ocr_conf": 92.0
+      }
+    }
+  ],
+  "sources": {
+    "vendor_name": {
+      "page": 1,
+      "bbox": [
+        1860,
+        2227,
+        2270,
+        2262
+      ],
+      "line": "For Mehta Printing Press",
+      "ocr_conf": 96.0
+    },
+    "vendor_gstin": {
+      "page": 1,
+      "bbox": [
+        210,
+        352,
+        2270,
+        401
+      ],
+      "line": "GSTIN: 27AAKPM8814S1Z8 Invoice Date: 02/09/2026",
+      "ocr_conf": 87.0
+    },
+    "invoice_no": {
+      "page": 1,
+      "bbox": [
+        211,
+        295,
+        2269,
+        342
+      ],
+      "line": "Mumbai, Maharashtra Invoice No: INV-2768",
+      "ocr_conf": 90.0
+    },
+    "invoice_date": {
+      "page": 1,
+      "bbox": [
+        210,
+        352,
+        2270,
+        401
+      ],
+      "line": "GSTIN: 27AAKPM8814S1Z8 Invoice Date: 02/09/2026",
+      "ocr_conf": 87.0
+    },
+    "due_date": {
+      "page": 1,
+      "bbox": [
+        1867,
+        428,
+        2270,
+        459
+      ],
+      "line": "Due Date: 17/09/2026",
+      "ocr_conf": 96.0
+    },
+    "po_number": {
+      "page": 1,
+      "bbox": [
+        1782,
+        485,
+        2263,
+        517
+      ],
+      "line": "PO Number: PO-2026-951",
+      "ocr_conf": 92.0
+    },
+    "line_items": [
+      {
+        "page": 1,
+        "bbox": [
+          220,
+          1124,
+          2261,
+          1163
+        ],
+        "line": "1 Flex Banner (sq ft) 10 22.00 220.00",
+        "ocr_conf": 95.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          217,
+          1215,
+          2261,
+          1254
+        ],
+        "line": "2 Letterheads (500) 4 1,800.00 7,200.00",
+        "ocr_conf": 95.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          217,
+          1306,
+          2261,
+          1346
+        ],
+        "line": "3 Visiting Cards (100) 25 250.00 6,250.00",
+        "ocr_conf": 95.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          217,
+          1399,
+          2261,
+          1438
+        ],
+        "line": "4 Brochures A4 (100) 5 1,400.00 7,000.00",
+        "ocr_conf": 91.0
+      }
+    ],
+    "subtotal": {
+      "page": 1,
+      "bbox": [
+        1502,
+        1527,
+        2261,
+        1577
+      ],
+      "line": "Subtotal Rs. 20,670.00",
+      "ocr_conf": 96.0
+    },
+    "tax_rows": [
+      {
+        "page": 1,
+        "bbox": [
+          1502,
+          1614,
+          2261,
+          1651
+        ],
+        "line": "CGST @ 9% Rs. 1,860.30",
+        "ocr_conf": 89.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          1502,
+          1698,
+          2261,
+          1735
+        ],
+        "line": "SGST @ 9% Rs. 1,860.30",
+        "ocr_conf": 88.0
+      }
+    ],
+    "printed_total": {
+      "page": 1,
+      "bbox": [
+        1501,
+        1803,
+        2262,
+        1844
+      ],
+      "line": "TOTAL Rs. 24,390.60",
+      "ocr_conf": 95.0
+    }
+  },
+  "audit_trail": [
+    {
+      "agent": "IngestionAgent",
+      "at": "2026-11-02T23:29:55",
+      "ms": 121
+    },
+    {
+      "agent": "OCRAgent",
+      "at": "2026-11-02T23:29:55",
+      "ms": 315
+    },
+    {
+      "agent": "ClassificationAgent",
+      "at": "2026-11-02T23:29:55",
+      "ms": 0
+    },
+    {
+      "agent": "ExtractionAgent",
+      "at": "2026-11-02T23:29:55",
+      "ms": 0
+    },
+    {
+      "agent": "ValidationAgent",
+      "at": "2026-11-02T23:29:55",
+      "ms": 0
+    }
+  ],
+  "processing_seconds": 0.44,
+  "source_ref": "invoice_003.pdf#p1"
+}

@@ -1,0 +1,18 @@
+{
+  "high_value_threshold": 50000,
+  "total_tolerance": 1.0,
+  "gst_rates": {
+    "CGST": 0.09,
+    "SGST": 0.09
+  },
+  "required_fields": [
+    "vendor_name",
+    "vendor_gstin",
+    "invoice_no",
+    "invoice_date",
+    "due_date",
+    "po_number",
+    "line_items",
+    "printed_total"
+  ]
+}

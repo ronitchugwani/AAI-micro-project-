@@ -1,0 +1,217 @@
+{
+  "file_name": "invoice_013_scan.png",
+  "doc_type": "invoice",
+  "status": "auto_approved",
+  "priority": null,
+  "reason": "All checks passed",
+  "ocr_confidence": 81.5,
+  "deskew_applied": true,
+  "dpi_used": 300,
+  "page_count": 1,
+  "fields": {
+    "vendor_name": "Om Sai Electricals",
+    "vendor_gstin": "27AACFO3390M1Z2",
+    "invoice_no": "INV-1574",
+    "invoice_date": "2026-10-08",
+    "due_date": "2026-10-23",
+    "po_number": "PO-2026-113",
+    "line_items": [
+      {
+        "description": "Ceiling Fan",
+        "qty": 2,
+        "rate": 2100.0,
+        "amount": 4200.0
+      },
+      {
+        "description": "LED Tube Light 20W",
+        "qty": 25,
+        "rate": 320.0,
+        "amount": 8000.0
+      }
+    ],
+    "subtotal": 12200.0,
+    "tax_rows": [
+      {
+        "label": "CGST @ 9%",
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 1098.0
+      },
+      {
+        "label": "SGST @ 9%",
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 1098.0
+      }
+    ],
+    "printed_total": 14396.0
+  },
+  "flags": [],
+  "sources": {
+    "vendor_name": {
+      "page": 1,
+      "bbox": [
+        1353,
+        1420,
+        1599,
+        1440
+      ],
+      "line": "For Om Sai Electricals",
+      "ocr_conf": 95.0
+    },
+    "vendor_gstin": {
+      "page": 1,
+      "bbox": [
+        223,
+        295,
+        1597,
+        327
+      ],
+      "line": "GSTIN: 27AACFO3390M1Z2 Invoice Date:. 08/10/2026",
+      "ocr_conf": 78.0
+    },
+    "invoice_no": {
+      "page": 1,
+      "bbox": [
+        224,
+        256,
+        1597,
+        287
+      ],
+      "line": "Pune, Maharashtra Invoice No: INV-1574",
+      "ocr_conf": 90.0
+    },
+    "invoice_date": {
+      "page": 1,
+      "bbox": [
+        223,
+        295,
+        1597,
+        327
+      ],
+      "line": "GSTIN: 27AACFO3390M1Z2 Invoice Date:. 08/10/2026",
+      "ocr_conf": 78.0
+    },
+    "due_date": {
+      "page": 1,
+      "bbox": [
+        1328,
+        344,
+        1597,
+        370
+      ],
+      "line": "Due Date: 23/10/2026",
+      "ocr_conf": 95.0
+    },
+    "po_number": {
+      "page": 1,
+      "bbox": [
+        1271,
+        382,
+        1597,
+        413
+      ],
+      "line": "PO Number: PO-2026-113",
+      "ocr_conf": 69.0
+    },
+    "line_items": [
+      {
+        "page": 1,
+        "bbox": [
+          231,
+          808,
+          1592,
+          837
+        ],
+        "line": "1 Ceiling Fan 2 2,100.00 4,200.00",
+        "ocr_conf": 96.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          229,
+          869,
+          1595,
+          897
+        ],
+        "line": "2 LED Tube Light 20W : 25 320.00 8,000.00",
+        "ocr_conf": 0.0
+      }
+    ],
+    "subtotal": {
+      "page": 1,
+      "bbox": [
+        1086,
+        954,
+        1593,
+        989
+      ],
+      "line": "Subtotal Rs. 12,200.00",
+      "ocr_conf": 95.0
+    },
+    "tax_rows": [
+      {
+        "page": 1,
+        "bbox": [
+          1085,
+          1013,
+          1593,
+          1037
+        ],
+        "line": "CGST-@ 9% Rs. 1,098.00",
+        "ocr_conf": 0.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          1084,
+          1068,
+          1593,
+          1093
+        ],
+        "line": "SGST @ 9% Rs. 1,098.00",
+        "ocr_conf": 92.0
+      }
+    ],
+    "printed_total": {
+      "page": 1,
+      "bbox": [
+        1085,
+        1139,
+        1593,
+        1165
+      ],
+      "line": "TOTAL Rs. 14,396.00",
+      "ocr_conf": 96.0
+    }
+  },
+  "audit_trail": [
+    {
+      "agent": "IngestionAgent",
+      "at": "2026-11-02T23:29:59",
+      "ms": 90
+    },
+    {
+      "agent": "OCRAgent",
+      "at": "2026-11-02T23:30:00",
+      "ms": 681
+    },
+    {
+      "agent": "ClassificationAgent",
+      "at": "2026-11-02T23:30:00",
+      "ms": 0
+    },
+    {
+      "agent": "ExtractionAgent",
+      "at": "2026-11-02T23:30:00",
+      "ms": 0
+    },
+    {
+      "agent": "ValidationAgent",
+      "at": "2026-11-02T23:30:00",
+      "ms": 0
+    }
+  ],
+  "processing_seconds": 0.77,
+  "source_ref": "invoice_013_scan.png#p1"
+}

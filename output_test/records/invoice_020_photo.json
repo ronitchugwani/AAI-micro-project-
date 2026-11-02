@@ -1,0 +1,227 @@
+{
+  "file_name": "invoice_020_photo.jpg",
+  "doc_type": "invoice",
+  "status": "needs_review",
+  "priority": "High",
+  "review_queue": "Finance - Accounts Payable",
+  "reason": "[R1] Tax row 'CGST @ 9%' has no readable amount; [R1] Tax row 'SGST @ 9%' has no readable amount; [R6] Printed total Rs. 6,509.80 does not match subtotal + tax Rs. 6,348.40 (difference Rs. 161.40)",
+  "ocr_confidence": 94.1,
+  "deskew_applied": false,
+  "dpi_used": 300,
+  "page_count": 1,
+  "fields": {
+    "vendor_name": "Kumar Packaging Industries",
+    "vendor_gstin": "27AADFK6612N1Z7",
+    "invoice_no": "INV-9134",
+    "invoice_date": "2026-09-09",
+    "due_date": "2026-09-24",
+    "po_number": "PO-2026-120",
+    "line_items": [
+      {
+        "description": "Stretch Film Roll",
+        "qty": 10,
+        "rate": 520.0,
+        "amount": 5200.0
+      },
+      {
+        "description": "Corrugated Box Large",
+        "qty": 4,
+        "rate": 45.0,
+        "amount": 180.0
+      }
+    ],
+    "subtotal": 5380.0,
+    "tax_rows": [],
+    "printed_total": 6509.8
+  },
+  "flags": [
+    {
+      "rule": "R1",
+      "severity": "High",
+      "message": "Tax row 'CGST @ 9%' has no readable amount",
+      "field": "tax_rows",
+      "source": null
+    },
+    {
+      "rule": "R1",
+      "severity": "High",
+      "message": "Tax row 'SGST @ 9%' has no readable amount",
+      "field": "tax_rows",
+      "source": null
+    },
+    {
+      "rule": "R6",
+      "severity": "High",
+      "message": "Printed total Rs. 6,509.80 does not match subtotal + tax Rs. 6,348.40 (difference Rs. 161.40)",
+      "field": "printed_total",
+      "source": {
+        "page": 1,
+        "bbox": [
+          815,
+          919,
+          1235,
+          956
+        ],
+        "line": "TOTAL Rs. 6,509.80",
+        "ocr_conf": 96.0
+      }
+    },
+    {
+      "rule": "NOTE",
+      "severity": "Low",
+      "message": "tax row 'CGST @ 9%' has no readable amount",
+      "field": null,
+      "source": null
+    },
+    {
+      "rule": "NOTE",
+      "severity": "Low",
+      "message": "tax row 'SGST @ 9%' has no readable amount",
+      "field": null,
+      "source": null
+    }
+  ],
+  "sources": {
+    "vendor_name": {
+      "page": 1,
+      "bbox": [
+        934,
+        1160,
+        1230,
+        1191
+      ],
+      "line": "For Kumar Packaging Industries",
+      "ocr_conf": 95.0
+    },
+    "vendor_gstin": {
+      "page": 1,
+      "bbox": [
+        164,
+        211,
+        1270,
+        255
+      ],
+      "line": "GSTIN: 27AADFK6612N1Z7 Invoice Date: 09/09/2026",
+      "ocr_conf": 89.0
+    },
+    "invoice_no": {
+      "page": 1,
+      "bbox": [
+        1054,
+        202,
+        1271,
+        222
+      ],
+      "line": "Invoice No: INV-9134",
+      "ocr_conf": 92.0
+    },
+    "invoice_date": {
+      "page": 1,
+      "bbox": [
+        164,
+        211,
+        1270,
+        255
+      ],
+      "line": "GSTIN: 27AADFK6612N1Z7 Invoice Date: 09/09/2026",
+      "ocr_conf": 89.0
+    },
+    "due_date": {
+      "page": 1,
+      "bbox": [
+        1044,
+        266,
+        1268,
+        287
+      ],
+      "line": "Due Date: 24/09/2026",
+      "ocr_conf": 95.0
+    },
+    "po_number": {
+      "page": 1,
+      "bbox": [
+        996,
+        297,
+        1267,
+        320
+      ],
+      "line": "PO Number: PO-2026-120",
+      "ocr_conf": 92.0
+    },
+    "line_items": [
+      {
+        "page": 1,
+        "bbox": [
+          150,
+          625,
+          1247,
+          677
+        ],
+        "line": "1 Stretch Film Roll 10 520.00 5,200.00",
+        "ocr_conf": 95.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          145,
+          673,
+          1245,
+          727
+        ],
+        "line": "2 Corrugated Box Large 4 45.00 180.00",
+        "ocr_conf": 94.0
+      }
+    ],
+    "subtotal": {
+      "page": 1,
+      "bbox": [
+        822,
+        765,
+        1242,
+        802
+      ],
+      "line": "Subtotal Rs. 5,380.00",
+      "ocr_conf": 96.0
+    },
+    "printed_total": {
+      "page": 1,
+      "bbox": [
+        815,
+        919,
+        1235,
+        956
+      ],
+      "line": "TOTAL Rs. 6,509.80",
+      "ocr_conf": 96.0
+    }
+  },
+  "audit_trail": [
+    {
+      "agent": "IngestionAgent",
+      "at": "2026-11-02T23:30:03",
+      "ms": 33
+    },
+    {
+      "agent": "OCRAgent",
+      "at": "2026-11-02T23:30:04",
+      "ms": 388
+    },
+    {
+      "agent": "ClassificationAgent",
+      "at": "2026-11-02T23:30:04",
+      "ms": 0
+    },
+    {
+      "agent": "ExtractionAgent",
+      "at": "2026-11-02T23:30:04",
+      "ms": 0
+    },
+    {
+      "agent": "ValidationAgent",
+      "at": "2026-11-02T23:30:04",
+      "ms": 0
+    }
+  ],
+  "processing_seconds": 0.42,
+  "source_ref": "invoice_020_photo.jpg#p1"
+}

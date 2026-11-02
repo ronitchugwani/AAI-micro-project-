@@ -1,0 +1,300 @@
+{
+  "file_name": "invoice_001_photo.jpg",
+  "doc_type": "invoice",
+  "status": "needs_review",
+  "priority": "High",
+  "review_queue": "Finance - Accounts Payable",
+  "reason": "[R4] CGST @ 9% should be Rs. 1,030.95 on a subtotal of Rs. 11,455.00, but Rs. 1,374.60 is printed; [R6] Printed total Rs. 13,860.55 does not match subtotal + tax Rs. 13,516.90 (difference Rs. 343.65)",
+  "ocr_confidence": 94.2,
+  "deskew_applied": false,
+  "dpi_used": 300,
+  "page_count": 1,
+  "fields": {
+    "vendor_name": "Kumar Packaging Industries",
+    "vendor_gstin": "27AADFK6612N1Z7",
+    "invoice_no": "INV-4527",
+    "invoice_date": "2026-09-18",
+    "due_date": "2026-10-03",
+    "po_number": "PO-2026-101",
+    "line_items": [
+      {
+        "description": "Stretch Film Roll",
+        "qty": 1,
+        "rate": 520.0,
+        "amount": 520.0
+      },
+      {
+        "description": "Corrugated Box Large",
+        "qty": 3,
+        "rate": 45.0,
+        "amount": 135.0
+      },
+      {
+        "description": "Bubble Wrap Roll",
+        "qty": 12,
+        "rate": 650.0,
+        "amount": 7800.0
+      },
+      {
+        "description": "Packing Tape (6 rolls)",
+        "qty": 10,
+        "rate": 300.0,
+        "amount": 3000.0
+      }
+    ],
+    "subtotal": 11455.0,
+    "tax_rows": [
+      {
+        "label": "CGST @ 9%",
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 1374.6
+      },
+      {
+        "label": "SGST @ 9%",
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 1030.95
+      }
+    ],
+    "printed_total": 13860.55
+  },
+  "flags": [
+    {
+      "rule": "R4",
+      "severity": "High",
+      "message": "CGST @ 9% should be Rs. 1,030.95 on a subtotal of Rs. 11,455.00, but Rs. 1,374.60 is printed",
+      "field": "tax_rows",
+      "source": [
+        {
+          "page": 1,
+          "bbox": [
+            847,
+            909,
+            1270,
+            940
+          ],
+          "line": "CGST @ 9% Rs. 1,374.60",
+          "ocr_conf": 89.0
+        },
+        {
+          "page": 1,
+          "bbox": [
+            846,
+            955,
+            1268,
+            987
+          ],
+          "line": "SGST @ 9% Rs. 1,030.95",
+          "ocr_conf": 92.0
+        }
+      ]
+    },
+    {
+      "rule": "R6",
+      "severity": "High",
+      "message": "Printed total Rs. 13,860.55 does not match subtotal + tax Rs. 13,516.90 (difference Rs. 343.65)",
+      "field": "printed_total",
+      "source": {
+        "page": 1,
+        "bbox": [
+          843,
+          1014,
+          1267,
+          1049
+        ],
+        "line": "TOTAL Rs. 13,860.55",
+        "ocr_conf": 96.0
+      }
+    }
+  ],
+  "sources": {
+    "vendor_name": {
+      "page": 1,
+      "bbox": [
+        967,
+        1254,
+        1264,
+        1283
+      ],
+      "line": "For Kumar Packaging Industries",
+      "ocr_conf": 93.0
+    },
+    "vendor_gstin": {
+      "page": 1,
+      "bbox": [
+        173,
+        199,
+        1296,
+        242
+      ],
+      "line": "GSTIN: 27AADFK6612N1Z7 Invoice Date: 18/09/2026",
+      "ocr_conf": 28.0
+    },
+    "invoice_no": {
+      "page": 1,
+      "bbox": [
+        1079,
+        189,
+        1298,
+        209
+      ],
+      "line": "Invoice No: INV-4527",
+      "ocr_conf": 92.0
+    },
+    "invoice_date": {
+      "page": 1,
+      "bbox": [
+        173,
+        199,
+        1296,
+        242
+      ],
+      "line": "GSTIN: 27AADFK6612N1Z7 Invoice Date: 18/09/2026",
+      "ocr_conf": 28.0
+    },
+    "due_date": {
+      "page": 1,
+      "bbox": [
+        1070,
+        254,
+        1295,
+        275
+      ],
+      "line": "Due Date: 03/10/2026",
+      "ocr_conf": 96.0
+    },
+    "po_number": {
+      "page": 1,
+      "bbox": [
+        1022,
+        285,
+        1291,
+        307
+      ],
+      "line": "PO Number: PO-2026-101",
+      "ocr_conf": 91.0
+    },
+    "line_items": [
+      {
+        "page": 1,
+        "bbox": [
+          164,
+          620,
+          1278,
+          665
+        ],
+        "line": "1 Stretch Film Roll 1 520.00 520.00",
+        "ocr_conf": 96.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          160,
+          669,
+          1277,
+          715
+        ],
+        "line": "2 Corrugated Box Large 3 45.00 135.00",
+        "ocr_conf": 96.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          159,
+          719,
+          1275,
+          767
+        ],
+        "line": "3 Bubble Wrap Roll 12 650.00 7,800.00",
+        "ocr_conf": 95.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          157,
+          769,
+          1273,
+          818
+        ],
+        "line": "4 Packing Tape (6 rolls) 10 300.00 3,000.00",
+        "ocr_conf": 96.0
+      }
+    ],
+    "subtotal": {
+      "page": 1,
+      "bbox": [
+        849,
+        859,
+        1271,
+        894
+      ],
+      "line": "Subtotal Rs. 11,455.00",
+      "ocr_conf": 96.0
+    },
+    "tax_rows": [
+      {
+        "page": 1,
+        "bbox": [
+          847,
+          909,
+          1270,
+          940
+        ],
+        "line": "CGST @ 9% Rs. 1,374.60",
+        "ocr_conf": 89.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          846,
+          955,
+          1268,
+          987
+        ],
+        "line": "SGST @ 9% Rs. 1,030.95",
+        "ocr_conf": 92.0
+      }
+    ],
+    "printed_total": {
+      "page": 1,
+      "bbox": [
+        843,
+        1014,
+        1267,
+        1049
+      ],
+      "line": "TOTAL Rs. 13,860.55",
+      "ocr_conf": 96.0
+    }
+  },
+  "audit_trail": [
+    {
+      "agent": "IngestionAgent",
+      "at": "2026-11-02T23:34:49",
+      "ms": 38
+    },
+    {
+      "agent": "OCRAgent",
+      "at": "2026-11-02T23:34:50",
+      "ms": 380
+    },
+    {
+      "agent": "ClassificationAgent",
+      "at": "2026-11-02T23:34:50",
+      "ms": 0
+    },
+    {
+      "agent": "ExtractionAgent",
+      "at": "2026-11-02T23:34:50",
+      "ms": 0
+    },
+    {
+      "agent": "ValidationAgent",
+      "at": "2026-11-02T23:34:50",
+      "ms": 0
+    }
+  ],
+  "processing_seconds": 0.42,
+  "source_ref": "invoice_001_photo.jpg#p1"
+}

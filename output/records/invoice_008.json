@@ -1,0 +1,270 @@
+{
+  "file_name": "invoice_008.pdf",
+  "doc_type": "invoice",
+  "status": "needs_review",
+  "priority": "Medium",
+  "review_queue": "Finance - Accounts Payable",
+  "reason": "[R10] Invoice total Rs. 53,265.20 exceeds the Rs. 50,000.00 approval threshold",
+  "ocr_confidence": 94.4,
+  "deskew_applied": false,
+  "dpi_used": 300,
+  "page_count": 1,
+  "fields": {
+    "vendor_name": "Lakshmi Computer Services",
+    "vendor_gstin": "27AAGPL9045P1Z4",
+    "invoice_no": "INV-9317",
+    "invoice_date": "2026-10-03",
+    "due_date": "2026-10-18",
+    "po_number": "PO-2026-108",
+    "line_items": [
+      {
+        "description": "USB Keyboard",
+        "qty": 18,
+        "rate": 800.0,
+        "amount": 14400.0
+      },
+      {
+        "description": "Laptop Servicing",
+        "qty": 20,
+        "rate": 1500.0,
+        "amount": 30000.0
+      },
+      {
+        "description": "Wireless Mouse",
+        "qty": 1,
+        "rate": 650.0,
+        "amount": 650.0
+      },
+      {
+        "description": "Network Cable Cat6 (m)",
+        "qty": 5,
+        "rate": 18.0,
+        "amount": 90.0
+      }
+    ],
+    "subtotal": 45140.0,
+    "tax_rows": [
+      {
+        "label": "CGST @ 9%",
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 4062.6
+      },
+      {
+        "label": "SGST @ 9%",
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 4062.6
+      }
+    ],
+    "printed_total": 53265.2
+  },
+  "flags": [
+    {
+      "rule": "R10",
+      "severity": "Medium",
+      "message": "Invoice total Rs. 53,265.20 exceeds the Rs. 50,000.00 approval threshold",
+      "field": "printed_total",
+      "source": {
+        "page": 1,
+        "bbox": [
+          1501,
+          1803,
+          2262,
+          1844
+        ],
+        "line": "TOTAL Rs. 53,265.20",
+        "ocr_conf": 94.0
+      }
+    }
+  ],
+  "sources": {
+    "vendor_name": {
+      "page": 1,
+      "bbox": [
+        1739,
+        2226,
+        2270,
+        2262
+      ],
+      "line": "For Lakshmi Computer Services",
+      "ocr_conf": 96.0
+    },
+    "vendor_gstin": {
+      "page": 1,
+      "bbox": [
+        210,
+        352,
+        2270,
+        401
+      ],
+      "line": "GSTIN: 27AAGPL9045P 124 Invoice Date: 03/10/2026",
+      "ocr_conf": 72.0
+    },
+    "invoice_no": {
+      "page": 1,
+      "bbox": [
+        211,
+        295,
+        2270,
+        342
+      ],
+      "line": "Mumbai, Maharashtra Invoice No: INV-9317",
+      "ocr_conf": 87.0
+    },
+    "invoice_date": {
+      "page": 1,
+      "bbox": [
+        210,
+        352,
+        2270,
+        401
+      ],
+      "line": "GSTIN: 27AAGPL9045P 124 Invoice Date: 03/10/2026",
+      "ocr_conf": 72.0
+    },
+    "due_date": {
+      "page": 1,
+      "bbox": [
+        1867,
+        428,
+        2270,
+        459
+      ],
+      "line": "Due Date: 18/10/2026",
+      "ocr_conf": 96.0
+    },
+    "po_number": {
+      "page": 1,
+      "bbox": [
+        1782,
+        485,
+        2269,
+        517
+      ],
+      "line": "PO Number: PO-2026-108",
+      "ocr_conf": 90.0
+    },
+    "line_items": [
+      {
+        "page": 1,
+        "bbox": [
+          220,
+          1123,
+          2261,
+          1163
+        ],
+        "line": "1 USB Keyboard 18 800.00 14,400.00",
+        "ocr_conf": 96.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          217,
+          1214,
+          2261,
+          1254
+        ],
+        "line": "2 Laptop Servicing 20 1,500.00 30,000.00",
+        "ocr_conf": 96.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          217,
+          1307,
+          2261,
+          1338
+        ],
+        "line": "3 Wireless Mouse 1 650.00 650.00",
+        "ocr_conf": 96.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          217,
+          1398,
+          2261,
+          1438
+        ],
+        "line": "4 Network Cable Cat6 (m) 5 18.00 90.00",
+        "ocr_conf": 92.0
+      }
+    ],
+    "subtotal": {
+      "page": 1,
+      "bbox": [
+        1502,
+        1527,
+        2261,
+        1576
+      ],
+      "line": "Subtotal Rs. 45,140.00",
+      "ocr_conf": 96.0
+    },
+    "tax_rows": [
+      {
+        "page": 1,
+        "bbox": [
+          1502,
+          1614,
+          2261,
+          1651
+        ],
+        "line": "CGST @ 9% Rs. 4,062.60",
+        "ocr_conf": 89.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          1502,
+          1698,
+          2261,
+          1735
+        ],
+        "line": "SGST @ 9% Rs. 4,062.60",
+        "ocr_conf": 88.0
+      }
+    ],
+    "printed_total": {
+      "page": 1,
+      "bbox": [
+        1501,
+        1803,
+        2262,
+        1844
+      ],
+      "line": "TOTAL Rs. 53,265.20",
+      "ocr_conf": 94.0
+    }
+  },
+  "audit_trail": [
+    {
+      "agent": "IngestionAgent",
+      "at": "2026-11-02T23:32:17",
+      "ms": 119
+    },
+    {
+      "agent": "OCRAgent",
+      "at": "2026-11-02T23:32:18",
+      "ms": 316
+    },
+    {
+      "agent": "ClassificationAgent",
+      "at": "2026-11-02T23:32:18",
+      "ms": 0
+    },
+    {
+      "agent": "ExtractionAgent",
+      "at": "2026-11-02T23:32:18",
+      "ms": 0
+    },
+    {
+      "agent": "ValidationAgent",
+      "at": "2026-11-02T23:32:18",
+      "ms": 0
+    }
+  ],
+  "processing_seconds": 0.43,
+  "source_ref": "invoice_008.pdf#p1"
+}

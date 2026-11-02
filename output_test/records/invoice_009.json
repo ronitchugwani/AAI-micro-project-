@@ -1,0 +1,234 @@
+{
+  "file_name": "invoice_009.pdf",
+  "doc_type": "invoice",
+  "status": "auto_approved",
+  "priority": null,
+  "reason": "All checks passed",
+  "ocr_confidence": 94.0,
+  "deskew_applied": false,
+  "dpi_used": 300,
+  "page_count": 1,
+  "fields": {
+    "vendor_name": "Sharma Furniture Works",
+    "vendor_gstin": "27ABCPS2287Q1Z1",
+    "invoice_no": "INV-3084",
+    "invoice_date": "2026-10-10",
+    "due_date": "2026-11-09",
+    "po_number": "PO-2026-109",
+    "line_items": [
+      {
+        "description": "Visitor Chair",
+        "qty": 1,
+        "rate": 2300.0,
+        "amount": 2300.0
+      },
+      {
+        "description": "Office Chair Ergonomic",
+        "qty": 1,
+        "rate": 6500.0,
+        "amount": 6500.0
+      },
+      {
+        "description": "Work Desk 4ft",
+        "qty": 2,
+        "rate": 5400.0,
+        "amount": 10800.0
+      }
+    ],
+    "subtotal": 19600.0,
+    "tax_rows": [
+      {
+        "label": "CGST @ 9%",
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 1764.0
+      },
+      {
+        "label": "SGST @ 9%",
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 1764.0
+      }
+    ],
+    "printed_total": 23128.0
+  },
+  "flags": [],
+  "sources": {
+    "vendor_name": {
+      "page": 1,
+      "bbox": [
+        1799,
+        2134,
+        2270,
+        2163
+      ],
+      "line": "For Sharma Furniture Works",
+      "ocr_conf": 95.0
+    },
+    "vendor_gstin": {
+      "page": 1,
+      "bbox": [
+        210,
+        352,
+        2270,
+        401
+      ],
+      "line": "GSTIN: 27ABCPS2287Q1Z1 Invoice Date: 10/10/2026",
+      "ocr_conf": 88.0
+    },
+    "invoice_no": {
+      "page": 1,
+      "bbox": [
+        211,
+        295,
+        2270,
+        342
+      ],
+      "line": "Nashik, Maharashtra Invoice No: INV-3084",
+      "ocr_conf": 23.0
+    },
+    "invoice_date": {
+      "page": 1,
+      "bbox": [
+        210,
+        352,
+        2270,
+        401
+      ],
+      "line": "GSTIN: 27ABCPS2287Q1Z1 Invoice Date: 10/10/2026",
+      "ocr_conf": 88.0
+    },
+    "due_date": {
+      "page": 1,
+      "bbox": [
+        1867,
+        428,
+        2270,
+        459
+      ],
+      "line": "Due Date: 09/11/2026",
+      "ocr_conf": 94.0
+    },
+    "po_number": {
+      "page": 1,
+      "bbox": [
+        1782,
+        485,
+        2269,
+        517
+      ],
+      "line": "PO Number: PO-2026-109",
+      "ocr_conf": 92.0
+    },
+    "line_items": [
+      {
+        "page": 1,
+        "bbox": [
+          220,
+          1123,
+          2261,
+          1160
+        ],
+        "line": "1 Visitor Chair 1 2,300.00 2,300.00",
+        "ocr_conf": 95.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          217,
+          1214,
+          2261,
+          1254
+        ],
+        "line": "2 Office Chair Ergonomic 1 6,500.00 6,500.00",
+        "ocr_conf": 94.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          217,
+          1307,
+          2261,
+          1343
+        ],
+        "line": "3 Work Desk 4ft 2 5,400.00 10,800.00",
+        "ocr_conf": 90.0
+      }
+    ],
+    "subtotal": {
+      "page": 1,
+      "bbox": [
+        1502,
+        1435,
+        2261,
+        1485
+      ],
+      "line": "Subtotal Rs. 19,600.00",
+      "ocr_conf": 95.0
+    },
+    "tax_rows": [
+      {
+        "page": 1,
+        "bbox": [
+          1502,
+          1523,
+          2261,
+          1560
+        ],
+        "line": "CGST @ 9% Rs. 1,764.00",
+        "ocr_conf": 90.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          1502,
+          1606,
+          2261,
+          1643
+        ],
+        "line": "SGST @ 9% Rs. 1,764.00",
+        "ocr_conf": 89.0
+      }
+    ],
+    "printed_total": {
+      "page": 1,
+      "bbox": [
+        1501,
+        1711,
+        2262,
+        1752
+      ],
+      "line": "TOTAL Rs. 23,128.00",
+      "ocr_conf": 95.0
+    }
+  },
+  "audit_trail": [
+    {
+      "agent": "IngestionAgent",
+      "at": "2026-11-02T23:29:58",
+      "ms": 120
+    },
+    {
+      "agent": "OCRAgent",
+      "at": "2026-11-02T23:29:58",
+      "ms": 362
+    },
+    {
+      "agent": "ClassificationAgent",
+      "at": "2026-11-02T23:29:58",
+      "ms": 0
+    },
+    {
+      "agent": "ExtractionAgent",
+      "at": "2026-11-02T23:29:58",
+      "ms": 0
+    },
+    {
+      "agent": "ValidationAgent",
+      "at": "2026-11-02T23:29:58",
+      "ms": 0
+    }
+  ],
+  "processing_seconds": 0.48,
+  "source_ref": "invoice_009.pdf#p1"
+}

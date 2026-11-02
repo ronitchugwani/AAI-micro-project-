@@ -1,0 +1,253 @@
+{
+  "file_name": "invoice_002.pdf",
+  "doc_type": "invoice",
+  "status": "needs_review",
+  "priority": "High",
+  "review_queue": "Finance - Accounts Payable",
+  "reason": "[R8] Vendor 'Balaji Enterprises' (GSTIN 27AAZPB1199T1Z0) is not in the vendor master",
+  "ocr_confidence": 93.7,
+  "deskew_applied": false,
+  "dpi_used": 300,
+  "page_count": 1,
+  "fields": {
+    "vendor_name": "Balaji Enterprises",
+    "vendor_gstin": "27AAZPB1199T1Z0",
+    "invoice_no": "INV-2392",
+    "invoice_date": "2026-09-01",
+    "due_date": "2026-10-16",
+    "po_number": "PO-2026-102",
+    "line_items": [
+      {
+        "description": "HDMI Cable 2m",
+        "qty": 25,
+        "rate": 350.0,
+        "amount": 8750.0
+      },
+      {
+        "description": "Router Dual Band",
+        "qty": 3,
+        "rate": 2900.0,
+        "amount": 8700.0
+      },
+      {
+        "description": "Printer Toner Cartridge",
+        "qty": 2,
+        "rate": 2400.0,
+        "amount": 4800.0
+      }
+    ],
+    "subtotal": 22250.0,
+    "tax_rows": [
+      {
+        "label": "CGST @ 9%",
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 2002.5
+      },
+      {
+        "label": "SGST @ 9%",
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 2002.5
+      }
+    ],
+    "printed_total": 26255.0
+  },
+  "flags": [
+    {
+      "rule": "R8",
+      "severity": "High",
+      "message": "Vendor 'Balaji Enterprises' (GSTIN 27AAZPB1199T1Z0) is not in the vendor master",
+      "field": "vendor_name",
+      "source": {
+        "page": 1,
+        "bbox": [
+          1916,
+          2135,
+          2270,
+          2170
+        ],
+        "line": "For Balaji Enterprises",
+        "ocr_conf": 95.0
+      }
+    }
+  ],
+  "sources": {
+    "vendor_name": {
+      "page": 1,
+      "bbox": [
+        1916,
+        2135,
+        2270,
+        2170
+      ],
+      "line": "For Balaji Enterprises",
+      "ocr_conf": 95.0
+    },
+    "vendor_gstin": {
+      "page": 1,
+      "bbox": [
+        210,
+        352,
+        2270,
+        401
+      ],
+      "line": "GSTIN: 27AAZPB1199T1Z0 Invoice Date: 01/09/2026",
+      "ocr_conf": 41.0
+    },
+    "invoice_no": {
+      "page": 1,
+      "bbox": [
+        211,
+        295,
+        2269,
+        342
+      ],
+      "line": "Kalyan, Maharashtra Invoice No: INV-2392",
+      "ocr_conf": 70.0
+    },
+    "invoice_date": {
+      "page": 1,
+      "bbox": [
+        210,
+        352,
+        2270,
+        401
+      ],
+      "line": "GSTIN: 27AAZPB1199T1Z0 Invoice Date: 01/09/2026",
+      "ocr_conf": 41.0
+    },
+    "due_date": {
+      "page": 1,
+      "bbox": [
+        1867,
+        428,
+        2270,
+        459
+      ],
+      "line": "Due Date: 16/10/2026",
+      "ocr_conf": 96.0
+    },
+    "po_number": {
+      "page": 1,
+      "bbox": [
+        1782,
+        485,
+        2269,
+        517
+      ],
+      "line": "PO Number: PO-2026-102",
+      "ocr_conf": 92.0
+    },
+    "line_items": [
+      {
+        "page": 1,
+        "bbox": [
+          220,
+          1123,
+          2261,
+          1160
+        ],
+        "line": "1 HDMI Cable 2m 25 350.00 8,750.00",
+        "ocr_conf": 95.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          217,
+          1215,
+          2261,
+          1251
+        ],
+        "line": "2 Router Dual Band 3 2,900.00 8,700.00",
+        "ocr_conf": 95.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          217,
+          1306,
+          2261,
+          1346
+        ],
+        "line": "3 Printer Toner Cartridge 2 2,400.00 4,800.00",
+        "ocr_conf": 96.0
+      }
+    ],
+    "subtotal": {
+      "page": 1,
+      "bbox": [
+        1502,
+        1435,
+        2261,
+        1484
+      ],
+      "line": "Subtotal Rs. 22,250.00",
+      "ocr_conf": 96.0
+    },
+    "tax_rows": [
+      {
+        "page": 1,
+        "bbox": [
+          1502,
+          1523,
+          2261,
+          1560
+        ],
+        "line": "CGST @ 9% Rs. 2,002.50",
+        "ocr_conf": 90.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          1502,
+          1606,
+          2261,
+          1643
+        ],
+        "line": "SGST @ 9% Rs. 2,002.50",
+        "ocr_conf": 89.0
+      }
+    ],
+    "printed_total": {
+      "page": 1,
+      "bbox": [
+        1501,
+        1711,
+        2262,
+        1752
+      ],
+      "line": "TOTAL Rs. 26,255.00",
+      "ocr_conf": 96.0
+    }
+  },
+  "audit_trail": [
+    {
+      "agent": "IngestionAgent",
+      "at": "2026-11-02T23:29:54",
+      "ms": 120
+    },
+    {
+      "agent": "OCRAgent",
+      "at": "2026-11-02T23:29:55",
+      "ms": 462
+    },
+    {
+      "agent": "ClassificationAgent",
+      "at": "2026-11-02T23:29:55",
+      "ms": 0
+    },
+    {
+      "agent": "ExtractionAgent",
+      "at": "2026-11-02T23:29:55",
+      "ms": 0
+    },
+    {
+      "agent": "ValidationAgent",
+      "at": "2026-11-02T23:29:55",
+      "ms": 0
+    }
+  ],
+  "processing_seconds": 0.58,
+  "source_ref": "invoice_002.pdf#p1"
+}

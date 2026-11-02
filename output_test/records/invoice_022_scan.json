@@ -1,0 +1,294 @@
+{
+  "file_name": "invoice_022_scan.png",
+  "doc_type": "invoice",
+  "status": "needs_review",
+  "priority": "High",
+  "review_queue": "Finance - Accounts Payable",
+  "reason": "[R5] SGST row appears 2 times; tax may be charged more than once; [R6] Printed total Rs. 35,179.00 does not match subtotal + tax Rs. 32,686.00 (difference Rs. 2,493.00)",
+  "ocr_confidence": 90.9,
+  "deskew_applied": true,
+  "dpi_used": 300,
+  "page_count": 1,
+  "fields": {
+    "vendor_name": "Sharma Furniture Works",
+    "vendor_gstin": "27ABCPS2287Q1Z1",
+    "invoice_no": "INV-1313",
+    "invoice_date": "2026-09-23",
+    "due_date": "2026-10-23",
+    "po_number": "PO-2026-122",
+    "line_items": [
+      {
+        "description": "Office Chair Ergonomic",
+        "qty": 3,
+        "rate": 6500.0,
+        "amount": 19500.0
+      },
+      {
+        "description": "Steel Filing Cabinet",
+        "qty": 1,
+        "rate": 8200.0,
+        "amount": 8200.0
+      }
+    ],
+    "subtotal": 27700.0,
+    "tax_rows": [
+      {
+        "label": "CGST @ 9%",
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 2493.0
+      },
+      {
+        "label": "SGST @ 9%",
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 2493.0
+      },
+      {
+        "label": "SGST @ 9%",
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 2493.0
+      }
+    ],
+    "printed_total": 35179.0
+  },
+  "flags": [
+    {
+      "rule": "R5",
+      "severity": "High",
+      "message": "SGST row appears 2 times; tax may be charged more than once",
+      "field": "tax_rows",
+      "source": [
+        {
+          "page": 1,
+          "bbox": [
+            1032,
+            975,
+            1539,
+            1000
+          ],
+          "line": "CGST @ 9% Rs. 2,493.00",
+          "ocr_conf": 89.0
+        },
+        {
+          "page": 1,
+          "bbox": [
+            1032,
+            1031,
+            1539,
+            1056
+          ],
+          "line": "SGST @ 9% Rs. 2,493.00",
+          "ocr_conf": 91.0
+        },
+        {
+          "page": 1,
+          "bbox": [
+            1032,
+            1087,
+            1539,
+            1112
+          ],
+          "line": "SGST @ 9% Rs. 2,493.00",
+          "ocr_conf": 91.0
+        }
+      ]
+    },
+    {
+      "rule": "R6",
+      "severity": "High",
+      "message": "Printed total Rs. 35,179.00 does not match subtotal + tax Rs. 32,686.00 (difference Rs. 2,493.00)",
+      "field": "printed_total",
+      "source": {
+        "page": 1,
+        "bbox": [
+          1031,
+          1157,
+          1539,
+          1185
+        ],
+        "line": "TOTAL Rs. 35,179.00",
+        "ocr_conf": 95.0
+      }
+    }
+  ],
+  "sources": {
+    "vendor_name": {
+      "page": 1,
+      "bbox": [
+        1230,
+        1440,
+        1545,
+        1460
+      ],
+      "line": "For Sharma Furniture Works",
+      "ocr_conf": 96.0
+    },
+    "vendor_gstin": {
+      "page": 1,
+      "bbox": [
+        172,
+        256,
+        1545,
+        297
+      ],
+      "line": "GSTIN: 27ABCPS2287Q1Z1 : Invoice Date: 23/09/2026",
+      "ocr_conf": 31.0
+    },
+    "invoice_no": {
+      "page": 1,
+      "bbox": [
+        172,
+        216,
+        1545,
+        251
+      ],
+      "line": "Nashik, Maharashtra Invoice No: INV-1313",
+      "ocr_conf": 92.0
+    },
+    "invoice_date": {
+      "page": 1,
+      "bbox": [
+        172,
+        256,
+        1545,
+        297
+      ],
+      "line": "GSTIN: 27ABCPS2287Q1Z1 : Invoice Date: 23/09/2026",
+      "ocr_conf": 31.0
+    },
+    "due_date": {
+      "page": 1,
+      "bbox": [
+        1276,
+        307,
+        1546,
+        328
+      ],
+      "line": "Due Date: 23/10/2026",
+      "ocr_conf": 96.0
+    },
+    "po_number": {
+      "page": 1,
+      "bbox": [
+        1202,
+        346,
+        1545,
+        369
+      ],
+      "line": "_ PO Number: PO-2026-122",
+      "ocr_conf": 67.0
+    },
+    "line_items": [
+      {
+        "page": 1,
+        "bbox": [
+          178,
+          770,
+          1539,
+          797
+        ],
+        "line": "1 Office Chair. Ergonomic 3 6,500:00 19,500.00",
+        "ocr_conf": 86.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          176,
+          831,
+          1539,
+          858
+        ],
+        "line": "2 Steel Filing Cabinet 1 8,200.00 8,200.00",
+        "ocr_conf": 96.0
+      }
+    ],
+    "subtotal": {
+      "page": 1,
+      "bbox": [
+        1032,
+        916,
+        1539,
+        950
+      ],
+      "line": "Subtotal Rs. 27,700.00",
+      "ocr_conf": 96.0
+    },
+    "tax_rows": [
+      {
+        "page": 1,
+        "bbox": [
+          1032,
+          975,
+          1539,
+          1000
+        ],
+        "line": "CGST @ 9% Rs. 2,493.00",
+        "ocr_conf": 89.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          1032,
+          1031,
+          1539,
+          1056
+        ],
+        "line": "SGST @ 9% Rs. 2,493.00",
+        "ocr_conf": 91.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          1032,
+          1087,
+          1539,
+          1112
+        ],
+        "line": "SGST @ 9% Rs. 2,493.00",
+        "ocr_conf": 91.0
+      }
+    ],
+    "printed_total": {
+      "page": 1,
+      "bbox": [
+        1031,
+        1157,
+        1539,
+        1185
+      ],
+      "line": "TOTAL Rs. 35,179.00",
+      "ocr_conf": 95.0
+    }
+  },
+  "audit_trail": [
+    {
+      "agent": "IngestionAgent",
+      "at": "2026-11-02T23:30:04",
+      "ms": 87
+    },
+    {
+      "agent": "OCRAgent",
+      "at": "2026-11-02T23:30:05",
+      "ms": 521
+    },
+    {
+      "agent": "ClassificationAgent",
+      "at": "2026-11-02T23:30:05",
+      "ms": 0
+    },
+    {
+      "agent": "ExtractionAgent",
+      "at": "2026-11-02T23:30:05",
+      "ms": 0
+    },
+    {
+      "agent": "ValidationAgent",
+      "at": "2026-11-02T23:30:05",
+      "ms": 0
+    }
+  ],
+  "processing_seconds": 0.61,
+  "source_ref": "invoice_022_scan.png#p1"
+}

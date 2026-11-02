@@ -1,0 +1,236 @@
+{
+  "file_name": "invoice_011_scan.png",
+  "doc_type": "invoice",
+  "status": "needs_review",
+  "priority": "Medium",
+  "review_queue": "Finance - Accounts Payable",
+  "reason": "[R7] Due date 2026-10-21 is before invoice date 2026-10-26",
+  "ocr_confidence": 88.1,
+  "deskew_applied": true,
+  "dpi_used": 300,
+  "page_count": 1,
+  "fields": {
+    "vendor_name": "Om Sai Electricals",
+    "vendor_gstin": "27AACFO3390M1Z2",
+    "invoice_no": "INV-7932",
+    "invoice_date": "2026-10-26",
+    "due_date": "2026-10-21",
+    "po_number": "PO-2026-111",
+    "line_items": [
+      {
+        "description": "MCB 32A",
+        "qty": 3,
+        "rate": 380.0,
+        "amount": 1140.0
+      },
+      {
+        "description": "Ceiling Fan",
+        "qty": 3,
+        "rate": 2100.0,
+        "amount": 6300.0
+      }
+    ],
+    "subtotal": 7440.0,
+    "tax_rows": [
+      {
+        "label": "CGST @ 9%",
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 669.6
+      },
+      {
+        "label": "SGST @ 9%",
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 669.6
+      }
+    ],
+    "printed_total": 8779.2
+  },
+  "flags": [
+    {
+      "rule": "R7",
+      "severity": "Medium",
+      "message": "Due date 2026-10-21 is before invoice date 2026-10-26",
+      "field": "due_date",
+      "source": {
+        "page": 1,
+        "bbox": [
+          1337,
+          350,
+          1606,
+          372
+        ],
+        "line": "Due Date: 21/10/2026",
+        "ocr_conf": 96.0
+      }
+    }
+  ],
+  "sources": {
+    "vendor_name": {
+      "page": 1,
+      "bbox": [
+        1358,
+        1427,
+        1604,
+        1447
+      ],
+      "line": "For Om Sai Electricals",
+      "ocr_conf": 95.0
+    },
+    "vendor_gstin": {
+      "page": 1,
+      "bbox": [
+        232,
+        298,
+        1606,
+        342
+      ],
+      "line": "GSTIN: 27AACFO3390M1Z2 ; Invoice Date: 26/10/2026",
+      "ocr_conf": 70.0
+    },
+    "invoice_no": {
+      "page": 1,
+      "bbox": [
+        234,
+        259,
+        1606,
+        294
+      ],
+      "line": "Pune, Maharashtra Invoice No: INV-7932",
+      "ocr_conf": 91.0
+    },
+    "invoice_date": {
+      "page": 1,
+      "bbox": [
+        232,
+        298,
+        1606,
+        342
+      ],
+      "line": "GSTIN: 27AACFO3390M1Z2 ; Invoice Date: 26/10/2026",
+      "ocr_conf": 70.0
+    },
+    "due_date": {
+      "page": 1,
+      "bbox": [
+        1337,
+        350,
+        1606,
+        372
+      ],
+      "line": "Due Date: 21/10/2026",
+      "ocr_conf": 96.0
+    },
+    "po_number": {
+      "page": 1,
+      "bbox": [
+        1280,
+        389,
+        1602,
+        411
+      ],
+      "line": "PO. Number: PO-2026-111",
+      "ocr_conf": 24.0
+    },
+    "line_items": [
+      {
+        "page": 1,
+        "bbox": [
+          239,
+          812,
+          1600,
+          839
+        ],
+        "line": "1 MCB 32A 3 380.00 1,140.00",
+        "ocr_conf": 91.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          237,
+          873,
+          1600,
+          908
+        ],
+        "line": "2 Ceiling Fan 3 2,100.00 : 6,300.00",
+        "ocr_conf": 63.0
+      }
+    ],
+    "subtotal": {
+      "page": 1,
+      "bbox": [
+        1093,
+        959,
+        1599,
+        995
+      ],
+      "line": "Subtotal Rs. 7,440.00",
+      "ocr_conf": 93.0
+    },
+    "tax_rows": [
+      {
+        "page": 1,
+        "bbox": [
+          1092,
+          1018,
+          1599,
+          1044
+        ],
+        "line": "CGST @ 9% Rs. 669.60",
+        "ocr_conf": 92.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          1092,
+          1074,
+          1599,
+          1107
+        ],
+        "line": "SGST.@ 9% : Rs. 669.60",
+        "ocr_conf": 53.0
+      }
+    ],
+    "printed_total": {
+      "page": 1,
+      "bbox": [
+        1091,
+        1144,
+        1601,
+        1173
+      ],
+      "line": "TOTAL Rs. 8,779.20",
+      "ocr_conf": 95.0
+    }
+  },
+  "audit_trail": [
+    {
+      "agent": "IngestionAgent",
+      "at": "2026-11-02T23:34:55",
+      "ms": 90
+    },
+    {
+      "agent": "OCRAgent",
+      "at": "2026-11-02T23:34:56",
+      "ms": 620
+    },
+    {
+      "agent": "ClassificationAgent",
+      "at": "2026-11-02T23:34:56",
+      "ms": 0
+    },
+    {
+      "agent": "ExtractionAgent",
+      "at": "2026-11-02T23:34:56",
+      "ms": 0
+    },
+    {
+      "agent": "ValidationAgent",
+      "at": "2026-11-02T23:34:56",
+      "ms": 0
+    }
+  ],
+  "processing_seconds": 0.71,
+  "source_ref": "invoice_011_scan.png#p1"
+}

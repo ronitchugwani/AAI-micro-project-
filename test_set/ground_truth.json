@@ -1,0 +1,1090 @@
+[
+  {
+    "file_name": "invoice_001.pdf",
+    "format": "pdf",
+    "doc_type": "invoice",
+    "vendor_name": "Mehta Printing Press",
+    "vendor_gstin": "27AAKPM8814S1Z8",
+    "vendor_registered": true,
+    "invoice_no": "INV-8601",
+    "invoice_date": "2026-10-09",
+    "due_date": "2026-10-24",
+    "po_number": "PO-2026-101",
+    "line_items": [
+      {
+        "description": "Letterheads (500)",
+        "qty": 1,
+        "rate": 1800.0,
+        "amount": 1800.0
+      },
+      {
+        "description": "Flex Banner (sq ft)",
+        "qty": 1,
+        "rate": 22.0,
+        "amount": 22.0
+      },
+      {
+        "description": "Visiting Cards (100)",
+        "qty": 4,
+        "rate": 250.0,
+        "amount": 1000.0
+      },
+      {
+        "description": "Brochures A4 (100)",
+        "qty": 4,
+        "rate": 1400.0,
+        "amount": 5600.0
+      }
+    ],
+    "subtotal": 8422.0,
+    "tax_rows": [
+      {
+        "label": "CGST @ 9%",
+        "amount": 757.98
+      },
+      {
+        "label": "SGST @ 9%",
+        "amount": 757.98
+      }
+    ],
+    "printed_total": 9937.96,
+    "correct_total": 9937.96,
+    "planted_error": "none",
+    "expected_status": "auto_approved",
+    "error_note": ""
+  },
+  {
+    "file_name": "invoice_002.pdf",
+    "format": "pdf",
+    "doc_type": "invoice",
+    "vendor_name": "Balaji Enterprises",
+    "vendor_gstin": "27AAZPB1199T1Z0",
+    "vendor_registered": false,
+    "invoice_no": "INV-2392",
+    "invoice_date": "2026-09-01",
+    "due_date": "2026-10-16",
+    "po_number": "PO-2026-102",
+    "line_items": [
+      {
+        "description": "HDMI Cable 2m",
+        "qty": 25,
+        "rate": 350.0,
+        "amount": 8750.0
+      },
+      {
+        "description": "Router Dual Band",
+        "qty": 3,
+        "rate": 2900.0,
+        "amount": 8700.0
+      },
+      {
+        "description": "Printer Toner Cartridge",
+        "qty": 2,
+        "rate": 2400.0,
+        "amount": 4800.0
+      }
+    ],
+    "subtotal": 22250.0,
+    "tax_rows": [
+      {
+        "label": "CGST @ 9%",
+        "amount": 2002.5
+      },
+      {
+        "label": "SGST @ 9%",
+        "amount": 2002.5
+      }
+    ],
+    "printed_total": 26255.0,
+    "correct_total": 26255.0,
+    "planted_error": "unregistered_vendor",
+    "expected_status": "needs_review",
+    "error_note": "Vendor is not in vendors.csv."
+  },
+  {
+    "file_name": "invoice_003.pdf",
+    "format": "pdf",
+    "doc_type": "invoice",
+    "vendor_name": "Mehta Printing Press",
+    "vendor_gstin": "27AAKPM8814S1Z8",
+    "vendor_registered": true,
+    "invoice_no": "INV-2768",
+    "invoice_date": "2026-09-02",
+    "due_date": "2026-09-17",
+    "po_number": "PO-2026-951",
+    "line_items": [
+      {
+        "description": "Flex Banner (sq ft)",
+        "qty": 10,
+        "rate": 22.0,
+        "amount": 220.0
+      },
+      {
+        "description": "Letterheads (500)",
+        "qty": 4,
+        "rate": 1800.0,
+        "amount": 7200.0
+      },
+      {
+        "description": "Visiting Cards (100)",
+        "qty": 25,
+        "rate": 250.0,
+        "amount": 6250.0
+      },
+      {
+        "description": "Brochures A4 (100)",
+        "qty": 5,
+        "rate": 1400.0,
+        "amount": 7000.0
+      }
+    ],
+    "subtotal": 20670.0,
+    "tax_rows": [
+      {
+        "label": "CGST @ 9%",
+        "amount": 1860.3
+      },
+      {
+        "label": "SGST @ 9%",
+        "amount": 1860.3
+      }
+    ],
+    "printed_total": 24390.6,
+    "correct_total": 24390.6,
+    "planted_error": "invalid_po_number",
+    "expected_status": "needs_review",
+    "error_note": "PO number does not exist in purchase_orders.csv."
+  },
+  {
+    "file_name": "invoice_004.pdf",
+    "format": "pdf",
+    "doc_type": "invoice",
+    "vendor_name": "Patel Stationery Mart",
+    "vendor_gstin": "27ABHPP7781L1Z9",
+    "vendor_registered": true,
+    "invoice_no": "INV-7151",
+    "invoice_date": "2026-09-04",
+    "due_date": "2026-10-04",
+    "po_number": "PO-2026-104",
+    "line_items": [
+      {
+        "description": "Sticky Notes Pad",
+        "qty": 1,
+        "rate": 35.0,
+        "amount": 35.0
+      },
+      {
+        "description": "Whiteboard Markers (set)",
+        "qty": 4,
+        "rate": 220.0,
+        "amount": 880.0
+      },
+      {
+        "description": "Desk Organiser",
+        "qty": 4,
+        "rate": 450.0,
+        "amount": 1800.0
+      }
+    ],
+    "subtotal": 2715.0,
+    "tax_rows": [
+      {
+        "label": "CGST @ 9%",
+        "amount": 244.35
+      },
+      {
+        "label": "SGST @ 9%",
+        "amount": 244.35
+      }
+    ],
+    "printed_total": 3203.7,
+    "correct_total": 3203.7,
+    "planted_error": "none",
+    "expected_status": "auto_approved",
+    "error_note": ""
+  },
+  {
+    "file_name": "invoice_005.pdf",
+    "format": "pdf",
+    "doc_type": "invoice",
+    "vendor_name": "Deccan Cleaning Supplies",
+    "vendor_gstin": "27AAJFD5530R1Z6",
+    "vendor_registered": true,
+    "invoice_no": "INV-1248",
+    "invoice_date": "2026-09-20",
+    "due_date": "2026-10-20",
+    "po_number": "PO-2026-105",
+    "line_items": [
+      {
+        "description": "Floor Cleaner 5L",
+        "qty": 5,
+        "rate": 480.0,
+        "amount": 2400.0
+      },
+      {
+        "description": "Garbage Bags (pack)",
+        "qty": 10,
+        "rate": 120.0,
+        "amount": 1200.0
+      },
+      {
+        "description": "Mop Set",
+        "qty": 2,
+        "rate": 650.0,
+        "amount": 1300.0
+      }
+    ],
+    "subtotal": 4900.0,
+    "tax_rows": [
+      {
+        "label": "CGST @ 9%",
+        "amount": 441.0
+      },
+      {
+        "label": "SGST @ 9%",
+        "amount": 441.0
+      }
+    ],
+    "printed_total": 5782.0,
+    "correct_total": 5782.0,
+    "planted_error": "none",
+    "expected_status": "auto_approved",
+    "error_note": ""
+  },
+  {
+    "file_name": "invoice_006.pdf",
+    "format": "pdf",
+    "doc_type": "invoice",
+    "vendor_name": "Deccan Cleaning Supplies",
+    "vendor_gstin": "27AAJFD5530R1Z6",
+    "vendor_registered": true,
+    "invoice_no": "INV-8976",
+    "invoice_date": "2026-09-04",
+    "due_date": "2026-10-04",
+    "po_number": "PO-2026-106",
+    "line_items": [
+      {
+        "description": "Hand Wash 5L",
+        "qty": 2,
+        "rate": 520.0,
+        "amount": 1040.0
+      },
+      {
+        "description": "Floor Cleaner 5L",
+        "qty": 1,
+        "rate": 480.0,
+        "amount": 480.0
+      }
+    ],
+    "subtotal": 1520.0,
+    "tax_rows": [
+      {
+        "label": "CGST @ 9%",
+        "amount": 136.8
+      },
+      {
+        "label": "SGST @ 9%",
+        "amount": 136.8
+      },
+      {
+        "label": "SGST @ 9%",
+        "amount": 136.8
+      }
+    ],
+    "printed_total": 1930.4,
+    "correct_total": 1793.6,
+    "planted_error": "duplicate_tax_row",
+    "expected_status": "needs_review",
+    "error_note": "SGST row printed twice, inflating total by Rs.136.80."
+  },
+  {
+    "file_name": "invoice_007.pdf",
+    "format": "pdf",
+    "doc_type": "invoice",
+    "vendor_name": "Om Sai Electricals",
+    "vendor_gstin": "27AACFO3390M1Z2",
+    "vendor_registered": true,
+    "invoice_no": "INV-5420",
+    "invoice_date": "2026-09-14",
+    "due_date": "2026-09-29",
+    "po_number": "PO-2026-107",
+    "line_items": [
+      {
+        "description": "Extension Board 6-way",
+        "qty": 12,
+        "rate": 550.0,
+        "amount": 6600.0
+      },
+      {
+        "description": "MCB 32A",
+        "qty": 12,
+        "rate": 380.0,
+        "amount": 4560.0
+      },
+      {
+        "description": "LED Tube Light 20W",
+        "qty": 2,
+        "rate": 320.0,
+        "amount": 640.0
+      },
+      {
+        "description": "Ceiling Fan",
+        "qty": 2,
+        "rate": 2100.0,
+        "amount": 4200.0
+      }
+    ],
+    "subtotal": 16000.0,
+    "tax_rows": [
+      {
+        "label": "CGST @ 9%",
+        "amount": 1440.0
+      },
+      {
+        "label": "SGST @ 9%",
+        "amount": 1440.0
+      }
+    ],
+    "printed_total": 20880.0,
+    "correct_total": 18880.0,
+    "planted_error": "total_mismatch",
+    "expected_status": "needs_review",
+    "error_note": "Printed total is Rs.2,000.00 higher than subtotal + tax."
+  },
+  {
+    "file_name": "invoice_008_scan.png",
+    "format": "scan",
+    "doc_type": "invoice",
+    "vendor_name": "Shree Ganesh Traders",
+    "vendor_gstin": "27AAEPG4521K1Z3",
+    "vendor_registered": true,
+    "invoice_no": "INV-8234",
+    "invoice_date": "2026-09-10",
+    "due_date": "2026-08-31",
+    "po_number": "PO-2026-108",
+    "line_items": [
+      {
+        "description": "Ball Pens (box of 50)",
+        "qty": 2,
+        "rate": 350.0,
+        "amount": 700.0
+      },
+      {
+        "description": "File Folders",
+        "qty": 1,
+        "rate": 25.0,
+        "amount": 25.0
+      }
+    ],
+    "subtotal": 725.0,
+    "tax_rows": [
+      {
+        "label": "CGST @ 9%",
+        "amount": 65.25
+      },
+      {
+        "label": "SGST @ 9%",
+        "amount": 65.25
+      }
+    ],
+    "printed_total": 855.5,
+    "correct_total": 855.5,
+    "planted_error": "due_before_invoice_date",
+    "expected_status": "needs_review",
+    "error_note": "Due date is earlier than invoice date."
+  },
+  {
+    "file_name": "invoice_009.pdf",
+    "format": "pdf",
+    "doc_type": "invoice",
+    "vendor_name": "Sharma Furniture Works",
+    "vendor_gstin": "27ABCPS2287Q1Z1",
+    "vendor_registered": true,
+    "invoice_no": "INV-3084",
+    "invoice_date": "2026-10-10",
+    "due_date": "2026-11-09",
+    "po_number": "PO-2026-109",
+    "line_items": [
+      {
+        "description": "Visitor Chair",
+        "qty": 1,
+        "rate": 2300.0,
+        "amount": 2300.0
+      },
+      {
+        "description": "Office Chair Ergonomic",
+        "qty": 1,
+        "rate": 6500.0,
+        "amount": 6500.0
+      },
+      {
+        "description": "Work Desk 4ft",
+        "qty": 2,
+        "rate": 5400.0,
+        "amount": 10800.0
+      }
+    ],
+    "subtotal": 19600.0,
+    "tax_rows": [
+      {
+        "label": "CGST @ 9%",
+        "amount": 1764.0
+      },
+      {
+        "label": "SGST @ 9%",
+        "amount": 1764.0
+      }
+    ],
+    "printed_total": 23128.0,
+    "correct_total": 23128.0,
+    "planted_error": "none",
+    "expected_status": "auto_approved",
+    "error_note": ""
+  },
+  {
+    "file_name": "invoice_010.pdf",
+    "format": "pdf",
+    "doc_type": "invoice",
+    "vendor_name": "Mehta Printing Press",
+    "vendor_gstin": "27AAKPM8814S1Z8",
+    "vendor_registered": true,
+    "invoice_no": "INV-4220",
+    "invoice_date": "2026-09-11",
+    "due_date": "2026-10-26",
+    "po_number": "PO-2026-110",
+    "line_items": [
+      {
+        "description": "Letterheads (500)",
+        "qty": 5,
+        "rate": 1800.0,
+        "amount": 9000.0
+      },
+      {
+        "description": "Brochures A4 (100)",
+        "qty": 4,
+        "rate": 1400.0,
+        "amount": 5600.0
+      },
+      {
+        "description": "Visiting Cards (100)",
+        "qty": 4,
+        "rate": 250.0,
+        "amount": 1000.0
+      },
+      {
+        "description": "Flex Banner (sq ft)",
+        "qty": 4,
+        "rate": 22.0,
+        "amount": 88.0
+      }
+    ],
+    "subtotal": 15688.0,
+    "tax_rows": [
+      {
+        "label": "CGST @ 9%",
+        "amount": 1411.92
+      },
+      {
+        "label": "SGST @ 9%",
+        "amount": 1411.92
+      }
+    ],
+    "printed_total": 18511.84,
+    "correct_total": 18511.84,
+    "planted_error": "none",
+    "expected_status": "auto_approved",
+    "error_note": ""
+  },
+  {
+    "file_name": "invoice_011_photo.jpg",
+    "format": "photo",
+    "doc_type": "invoice",
+    "vendor_name": "Deccan Cleaning Supplies",
+    "vendor_gstin": "27AAJFD5530R1Z6",
+    "vendor_registered": true,
+    "invoice_no": "INV-4906",
+    "invoice_date": "2026-10-03",
+    "due_date": "2026-11-02",
+    "po_number": "PO-2026-111",
+    "line_items": [
+      {
+        "description": "Floor Cleaner 5L",
+        "qty": 2,
+        "rate": 480.0,
+        "amount": 960.0
+      },
+      {
+        "description": "Hand Wash 5L",
+        "qty": 2,
+        "rate": 520.0,
+        "amount": 1040.0
+      },
+      {
+        "description": "Mop Set",
+        "qty": 1,
+        "rate": 650.0,
+        "amount": 650.0
+      }
+    ],
+    "subtotal": 2650.0,
+    "tax_rows": [
+      {
+        "label": "CGST @ 9%",
+        "amount": 238.5
+      },
+      {
+        "label": "SGST @ 9%",
+        "amount": 238.5
+      }
+    ],
+    "printed_total": 3127.0,
+    "correct_total": 3127.0,
+    "planted_error": "none",
+    "expected_status": "auto_approved",
+    "error_note": ""
+  },
+  {
+    "file_name": "invoice_012_photo.jpg",
+    "format": "photo",
+    "doc_type": "invoice",
+    "vendor_name": "Om Sai Electricals",
+    "vendor_gstin": "27AACFO3390M1Z2",
+    "vendor_registered": true,
+    "invoice_no": "INV-2133",
+    "invoice_date": "2026-10-18",
+    "due_date": "2026-11-02",
+    "po_number": "PO-2026-112",
+    "line_items": [
+      {
+        "description": "LED Tube Light 20W",
+        "qty": 25,
+        "rate": 320.0,
+        "amount": 8000.0
+      },
+      {
+        "description": "MCB 32A",
+        "qty": 2,
+        "rate": 380.0,
+        "amount": 760.0
+      },
+      {
+        "description": "Ceiling Fan",
+        "qty": 1,
+        "rate": 2100.0,
+        "amount": 2100.0
+      },
+      {
+        "description": "Extension Board 6-way",
+        "qty": 4,
+        "rate": 550.0,
+        "amount": 2200.0
+      }
+    ],
+    "subtotal": 13060.0,
+    "tax_rows": [
+      {
+        "label": "CGST @ 9%",
+        "amount": 1175.4
+      },
+      {
+        "label": "SGST @ 9%",
+        "amount": 1175.4
+      }
+    ],
+    "printed_total": 15410.8,
+    "correct_total": 15410.8,
+    "planted_error": "none",
+    "expected_status": "auto_approved",
+    "error_note": ""
+  },
+  {
+    "file_name": "invoice_013_scan.png",
+    "format": "scan",
+    "doc_type": "invoice",
+    "vendor_name": "Om Sai Electricals",
+    "vendor_gstin": "27AACFO3390M1Z2",
+    "vendor_registered": true,
+    "invoice_no": "INV-1574",
+    "invoice_date": "2026-10-08",
+    "due_date": "2026-10-23",
+    "po_number": "PO-2026-113",
+    "line_items": [
+      {
+        "description": "Ceiling Fan",
+        "qty": 2,
+        "rate": 2100.0,
+        "amount": 4200.0
+      },
+      {
+        "description": "LED Tube Light 20W",
+        "qty": 25,
+        "rate": 320.0,
+        "amount": 8000.0
+      }
+    ],
+    "subtotal": 12200.0,
+    "tax_rows": [
+      {
+        "label": "CGST @ 9%",
+        "amount": 1098.0
+      },
+      {
+        "label": "SGST @ 9%",
+        "amount": 1098.0
+      }
+    ],
+    "printed_total": 14396.0,
+    "correct_total": 14396.0,
+    "planted_error": "none",
+    "expected_status": "auto_approved",
+    "error_note": ""
+  },
+  {
+    "file_name": "invoice_014_scan.png",
+    "format": "scan",
+    "doc_type": "invoice",
+    "vendor_name": "Mehta Printing Press",
+    "vendor_gstin": "27AAKPM8814S1Z8",
+    "vendor_registered": true,
+    "invoice_no": "INV-6224",
+    "invoice_date": "2026-10-17",
+    "due_date": "2026-11-16",
+    "po_number": "PO-2026-114",
+    "line_items": [
+      {
+        "description": "Flex Banner (sq ft)",
+        "qty": 2,
+        "rate": 22.0,
+        "amount": 44.0
+      },
+      {
+        "description": "Visiting Cards (100)",
+        "qty": 20,
+        "rate": 250.0,
+        "amount": 5000.0
+      },
+      {
+        "description": "Brochures A4 (100)",
+        "qty": 2,
+        "rate": 1400.0,
+        "amount": 2800.0
+      }
+    ],
+    "subtotal": 7844.0,
+    "tax_rows": [
+      {
+        "label": "CGST @ 9%",
+        "amount": 705.96
+      },
+      {
+        "label": "SGST @ 9%",
+        "amount": 705.96
+      }
+    ],
+    "printed_total": 9255.92,
+    "correct_total": 9255.92,
+    "planted_error": "none",
+    "expected_status": "auto_approved",
+    "error_note": ""
+  },
+  {
+    "file_name": "invoice_015_scan.png",
+    "format": "scan",
+    "doc_type": "invoice",
+    "vendor_name": "Patel Stationery Mart",
+    "vendor_gstin": "27ABHPP7781L1Z9",
+    "vendor_registered": true,
+    "invoice_no": "INV-3122",
+    "invoice_date": "2026-10-18",
+    "due_date": "2026-12-02",
+    "po_number": "PO-2026-115",
+    "line_items": [
+      {
+        "description": "Sticky Notes Pad",
+        "qty": 10,
+        "rate": 35.0,
+        "amount": 350.0
+      },
+      {
+        "description": "Desk Organiser",
+        "qty": 1,
+        "rate": 450.0,
+        "amount": 450.0
+      }
+    ],
+    "subtotal": 800.0,
+    "tax_rows": [
+      {
+        "label": "CGST @ 9%",
+        "amount": 72.0
+      },
+      {
+        "label": "SGST @ 9%",
+        "amount": 72.0
+      }
+    ],
+    "printed_total": 2944.0,
+    "correct_total": 944.0,
+    "planted_error": "total_mismatch",
+    "expected_status": "needs_review",
+    "error_note": "Printed total is Rs.2,000.00 higher than subtotal + tax."
+  },
+  {
+    "file_name": "invoice_016.pdf",
+    "format": "pdf",
+    "doc_type": "invoice",
+    "vendor_name": "Mehta Printing Press",
+    "vendor_gstin": "27AAKPM8814S1Z8",
+    "vendor_registered": true,
+    "invoice_no": "INV-7264",
+    "invoice_date": "2026-10-10",
+    "due_date": "2026-11-24",
+    "po_number": "PO-2026-116",
+    "line_items": [
+      {
+        "description": "Brochures A4 (100)",
+        "qty": 20,
+        "rate": 1400.0,
+        "amount": 28000.0
+      },
+      {
+        "description": "Visiting Cards (100)",
+        "qty": 1,
+        "rate": 250.0,
+        "amount": 250.0
+      }
+    ],
+    "subtotal": 28250.0,
+    "tax_rows": [
+      {
+        "label": "CGST @ 9%",
+        "amount": 2542.5
+      },
+      {
+        "label": "SGST @ 9%",
+        "amount": 2542.5
+      }
+    ],
+    "printed_total": 33335.0,
+    "correct_total": 33335.0,
+    "planted_error": "none",
+    "expected_status": "auto_approved",
+    "error_note": ""
+  },
+  {
+    "file_name": "invoice_017_scan.png",
+    "format": "scan",
+    "doc_type": "invoice",
+    "vendor_name": "Deccan Cleaning Supplies",
+    "vendor_gstin": "27AAJFD5530R1Z6",
+    "vendor_registered": true,
+    "invoice_no": "INV-7364",
+    "invoice_date": "2026-10-17",
+    "due_date": "2026-11-16",
+    "po_number": "PO-2026-117",
+    "line_items": [
+      {
+        "description": "Floor Cleaner 5L",
+        "qty": 2,
+        "rate": 480.0,
+        "amount": 960.0
+      },
+      {
+        "description": "Garbage Bags (pack)",
+        "qty": 2,
+        "rate": 120.0,
+        "amount": 240.0
+      },
+      {
+        "description": "Mop Set",
+        "qty": 5,
+        "rate": 650.0,
+        "amount": 3250.0
+      },
+      {
+        "description": "Hand Wash 5L",
+        "qty": 12,
+        "rate": 520.0,
+        "amount": 6240.0
+      }
+    ],
+    "subtotal": 10690.0,
+    "tax_rows": [
+      {
+        "label": "CGST @ 9%",
+        "amount": 962.1
+      },
+      {
+        "label": "SGST @ 9%",
+        "amount": 962.1
+      }
+    ],
+    "printed_total": 12614.2,
+    "correct_total": 12614.2,
+    "planted_error": "none",
+    "expected_status": "auto_approved",
+    "error_note": ""
+  },
+  {
+    "file_name": "invoice_018_photo.jpg",
+    "format": "photo",
+    "doc_type": "invoice",
+    "vendor_name": "Royal Tech Distributors",
+    "vendor_gstin": "27AAYFR4470U1Z5",
+    "vendor_registered": false,
+    "invoice_no": "INV-2849",
+    "invoice_date": "2026-09-02",
+    "due_date": "2026-09-17",
+    "po_number": "PO-2026-118",
+    "line_items": [
+      {
+        "description": "HDMI Cable 2m",
+        "qty": 25,
+        "rate": 350.0,
+        "amount": 8750.0
+      },
+      {
+        "description": "UPS 1kVA",
+        "qty": 1,
+        "rate": 5200.0,
+        "amount": 5200.0
+      },
+      {
+        "description": "Router Dual Band",
+        "qty": 3,
+        "rate": 2900.0,
+        "amount": 8700.0
+      },
+      {
+        "description": "Printer Toner Cartridge",
+        "qty": 2,
+        "rate": 2400.0,
+        "amount": 4800.0
+      }
+    ],
+    "subtotal": 27450.0,
+    "tax_rows": [
+      {
+        "label": "CGST @ 9%",
+        "amount": 2470.5
+      },
+      {
+        "label": "SGST @ 9%",
+        "amount": 2470.5
+      }
+    ],
+    "printed_total": 32391.0,
+    "correct_total": 32391.0,
+    "planted_error": "unregistered_vendor",
+    "expected_status": "needs_review",
+    "error_note": "Vendor is not in vendors.csv."
+  },
+  {
+    "file_name": "invoice_019.pdf",
+    "format": "pdf",
+    "doc_type": "invoice",
+    "vendor_name": "Kumar Packaging Industries",
+    "vendor_gstin": "27AADFK6612N1Z7",
+    "vendor_registered": true,
+    "invoice_no": "INV-8059",
+    "invoice_date": "2026-09-13",
+    "due_date": "2026-10-28",
+    "po_number": "PO-2026-119",
+    "line_items": [
+      {
+        "description": "Bubble Wrap Roll",
+        "qty": 54,
+        "rate": 650.0,
+        "amount": 35100.0
+      },
+      {
+        "description": "Stretch Film Roll",
+        "qty": 10,
+        "rate": 520.0,
+        "amount": 5200.0
+      },
+      {
+        "description": "Packing Tape (6 rolls)",
+        "qty": 12,
+        "rate": 300.0,
+        "amount": 3600.0
+      },
+      {
+        "description": "Corrugated Box Large",
+        "qty": 5,
+        "rate": 45.0,
+        "amount": 225.0
+      }
+    ],
+    "subtotal": 44125.0,
+    "tax_rows": [
+      {
+        "label": "CGST @ 9%",
+        "amount": 3971.25
+      },
+      {
+        "label": "SGST @ 9%",
+        "amount": 3971.25
+      }
+    ],
+    "printed_total": 52067.5,
+    "correct_total": 52067.5,
+    "planted_error": "high_value_over_50000",
+    "expected_status": "needs_review",
+    "error_note": "Invoice total exceeds the Rs.50,000 approval threshold."
+  },
+  {
+    "file_name": "invoice_020_photo.jpg",
+    "format": "photo",
+    "doc_type": "invoice",
+    "vendor_name": "Kumar Packaging Industries",
+    "vendor_gstin": "27AADFK6612N1Z7",
+    "vendor_registered": true,
+    "invoice_no": "INV-9134",
+    "invoice_date": "2026-09-09",
+    "due_date": "2026-09-24",
+    "po_number": "PO-2026-120",
+    "line_items": [
+      {
+        "description": "Stretch Film Roll",
+        "qty": 10,
+        "rate": 520.0,
+        "amount": 5200.0
+      },
+      {
+        "description": "Corrugated Box Large",
+        "qty": 4,
+        "rate": 45.0,
+        "amount": 180.0
+      }
+    ],
+    "subtotal": 5380.0,
+    "tax_rows": [
+      {
+        "label": "CGST @ 9%",
+        "amount": 645.6
+      },
+      {
+        "label": "SGST @ 9%",
+        "amount": 484.2
+      }
+    ],
+    "printed_total": 6509.8,
+    "correct_total": 6348.4,
+    "planted_error": "tax_rate_error",
+    "expected_status": "needs_review",
+    "error_note": "CGST amount is computed at 12% although the label says 9%."
+  },
+  {
+    "file_name": "invoice_021.pdf",
+    "format": "pdf",
+    "doc_type": "invoice",
+    "vendor_name": "Mehta Printing Press",
+    "vendor_gstin": "27AAKPM8814S1Z8",
+    "vendor_registered": true,
+    "invoice_no": null,
+    "invoice_date": "2026-10-14",
+    "due_date": "2026-11-13",
+    "po_number": "PO-2026-121",
+    "line_items": [
+      {
+        "description": "Flex Banner (sq ft)",
+        "qty": 12,
+        "rate": 22.0,
+        "amount": 264.0
+      },
+      {
+        "description": "Visiting Cards (100)",
+        "qty": 25,
+        "rate": 250.0,
+        "amount": 6250.0
+      },
+      {
+        "description": "Letterheads (500)",
+        "qty": 10,
+        "rate": 1800.0,
+        "amount": 18000.0
+      }
+    ],
+    "subtotal": 24514.0,
+    "tax_rows": [
+      {
+        "label": "CGST @ 9%",
+        "amount": 2206.26
+      },
+      {
+        "label": "SGST @ 9%",
+        "amount": 2206.26
+      }
+    ],
+    "printed_total": 28926.52,
+    "correct_total": 28926.52,
+    "planted_error": "missing_invoice_number",
+    "expected_status": "needs_review",
+    "error_note": "Invoice number field is blank."
+  },
+  {
+    "file_name": "invoice_022_scan.png",
+    "format": "scan",
+    "doc_type": "invoice",
+    "vendor_name": "Sharma Furniture Works",
+    "vendor_gstin": "27ABCPS2287Q1Z1",
+    "vendor_registered": true,
+    "invoice_no": "INV-1313",
+    "invoice_date": "2026-09-23",
+    "due_date": "2026-10-23",
+    "po_number": "PO-2026-122",
+    "line_items": [
+      {
+        "description": "Office Chair Ergonomic",
+        "qty": 3,
+        "rate": 6500.0,
+        "amount": 19500.0
+      },
+      {
+        "description": "Steel Filing Cabinet",
+        "qty": 1,
+        "rate": 8200.0,
+        "amount": 8200.0
+      }
+    ],
+    "subtotal": 27700.0,
+    "tax_rows": [
+      {
+        "label": "CGST @ 9%",
+        "amount": 2493.0
+      },
+      {
+        "label": "SGST @ 9%",
+        "amount": 2493.0
+      },
+      {
+        "label": "SGST @ 9%",
+        "amount": 2493.0
+      }
+    ],
+    "printed_total": 35179.0,
+    "correct_total": 32686.0,
+    "planted_error": "duplicate_tax_row",
+    "expected_status": "needs_review",
+    "error_note": "SGST row printed twice, inflating total by Rs.2,493.00."
+  },
+  {
+    "file_name": "other_001_scan.png",
+    "format": "scan",
+    "doc_type": "delivery_challan",
+    "vendor_name": "Deccan Cleaning Supplies",
+    "planted_error": "not_an_invoice",
+    "expected_status": "rejected",
+    "error_note": "Not an invoice; classifier should reject."
+  },
+  {
+    "file_name": "other_002.pdf",
+    "format": "pdf",
+    "doc_type": "quotation_letter",
+    "vendor_name": "Om Sai Electricals",
+    "planted_error": "not_an_invoice",
+    "expected_status": "rejected",
+    "error_note": "Not an invoice; classifier should reject."
+  }
+]

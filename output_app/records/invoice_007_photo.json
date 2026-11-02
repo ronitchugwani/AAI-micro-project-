@@ -1,0 +1,232 @@
+{
+  "file_name": "invoice_007_photo.jpg",
+  "doc_type": "invoice",
+  "status": "needs_review",
+  "priority": "High",
+  "review_queue": "Finance - Accounts Payable",
+  "reason": "[R1] Required field 'due_date' is missing or unreadable; [R8] Vendor 'Royal Tech Distributors' (GSTIN 27AAYFR4470U1Z5) is not in the vendor master",
+  "ocr_confidence": 92.6,
+  "deskew_applied": false,
+  "dpi_used": 300,
+  "page_count": 1,
+  "fields": {
+    "vendor_name": "Royal Tech Distributors",
+    "vendor_gstin": "27AAYFR4470U1Z5",
+    "invoice_no": "INV-9669",
+    "invoice_date": "2026-10-09",
+    "due_date": null,
+    "po_number": "PO-2026-107",
+    "line_items": [
+      {
+        "description": "q HDMI Cable 2m",
+        "qty": 2,
+        "rate": 350.0,
+        "amount": 700.0
+      },
+      {
+        "description": "Router Dual Band",
+        "qty": 2,
+        "rate": 2900.0,
+        "amount": 5800.0
+      }
+    ],
+    "subtotal": 6500.0,
+    "tax_rows": [
+      {
+        "label": "CGST @ 9%",
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 585.0
+      },
+      {
+        "label": "SGST @ 9%",
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 585.0
+      }
+    ],
+    "printed_total": 7670.0
+  },
+  "flags": [
+    {
+      "rule": "R1",
+      "severity": "High",
+      "message": "Required field 'due_date' is missing or unreadable",
+      "field": "due_date",
+      "source": null
+    },
+    {
+      "rule": "R8",
+      "severity": "High",
+      "message": "Vendor 'Royal Tech Distributors' (GSTIN 27AAYFR4470U1Z5) is not in the vendor master",
+      "field": "vendor_name",
+      "source": {
+        "page": 1,
+        "bbox": [
+          1000,
+          1095,
+          1249,
+          1128
+        ],
+        "line": "For Royal Tech Distributors",
+        "ocr_conf": 96.0
+      }
+    }
+  ],
+  "sources": {
+    "vendor_name": {
+      "page": 1,
+      "bbox": [
+        1000,
+        1095,
+        1249,
+        1128
+      ],
+      "line": "For Royal Tech Distributors",
+      "ocr_conf": 96.0
+    },
+    "vendor_gstin": {
+      "page": 1,
+      "bbox": [
+        86,
+        177,
+        1194,
+        279
+      ],
+      "line": "GSTIN: 27AAYFR4470U125 Invoice Date: 09/1 0/2026",
+      "ocr_conf": 47.0
+    },
+    "invoice_no": {
+      "page": 1,
+      "bbox": [
+        84,
+        145,
+        1192,
+        248
+      ],
+      "line": "Mumbai, Maharashtra Invoice No: INV-9669",
+      "ocr_conf": 91.0
+    },
+    "invoice_date": {
+      "page": 1,
+      "bbox": [
+        86,
+        177,
+        1194,
+        279
+      ],
+      "line": "GSTIN: 27AAYFR4470U125 Invoice Date: 09/1 0/2026",
+      "ocr_conf": 47.0
+    },
+    "po_number": {
+      "page": 1,
+      "bbox": [
+        932,
+        240,
+        1198,
+        277
+      ],
+      "line": "PO Number: PO-2026-107",
+      "ocr_conf": 71.0
+    },
+    "line_items": [
+      {
+        "page": 1,
+        "bbox": [
+          112,
+          590,
+          1214,
+          686
+        ],
+        "line": "q HDMI Cable 2m 2 350.00 700.00",
+        "ocr_conf": 62.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          114,
+          640,
+          1217,
+          735
+        ],
+        "line": "2 Router Dual Band 2 2,900.00 5,800.00",
+        "ocr_conf": 95.0
+      }
+    ],
+    "subtotal": {
+      "page": 1,
+      "bbox": [
+        807,
+        713,
+        1221,
+        766
+      ],
+      "line": "Subtotal Rs. 6,500.00",
+      "ocr_conf": 95.0
+    },
+    "tax_rows": [
+      {
+        "page": 1,
+        "bbox": [
+          809,
+          759,
+          1224,
+          804
+        ],
+        "line": "CGST @ 9% Rs. 585.00",
+        "ocr_conf": 92.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          812,
+          805,
+          1227,
+          850
+        ],
+        "line": "SGST @ 9% Rs. 585.00",
+        "ocr_conf": 91.0
+      }
+    ],
+    "printed_total": {
+      "page": 1,
+      "bbox": [
+        814,
+        863,
+        1230,
+        910
+      ],
+      "line": "TOTAL Rs. 7,670.00",
+      "ocr_conf": 96.0
+    }
+  },
+  "audit_trail": [
+    {
+      "agent": "IngestionAgent",
+      "at": "2026-11-02T23:34:53",
+      "ms": 33
+    },
+    {
+      "agent": "OCRAgent",
+      "at": "2026-11-02T23:34:53",
+      "ms": 462
+    },
+    {
+      "agent": "ClassificationAgent",
+      "at": "2026-11-02T23:34:53",
+      "ms": 0
+    },
+    {
+      "agent": "ExtractionAgent",
+      "at": "2026-11-02T23:34:53",
+      "ms": 0
+    },
+    {
+      "agent": "ValidationAgent",
+      "at": "2026-11-02T23:34:53",
+      "ms": 0
+    }
+  ],
+  "processing_seconds": 0.5,
+  "source_ref": "invoice_007_photo.jpg#p1"
+}

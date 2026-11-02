@@ -1,0 +1,311 @@
+{
+  "file_name": "invoice_010.pdf",
+  "doc_type": "invoice",
+  "status": "needs_review",
+  "priority": "High",
+  "review_queue": "Finance - Accounts Payable",
+  "reason": "[R5] SGST row appears 2 times; tax may be charged more than once; [R6] Printed total Rs. 2,933.70 does not match subtotal + tax Rs. 2,725.80 (difference Rs. 207.90)",
+  "ocr_confidence": 94.8,
+  "deskew_applied": false,
+  "dpi_used": 300,
+  "page_count": 1,
+  "fields": {
+    "vendor_name": "Patel Stationery Mart",
+    "vendor_gstin": "27ABHPP7781L1Z9",
+    "invoice_no": "INV-2133",
+    "invoice_date": "2026-10-17",
+    "due_date": "2026-11-16",
+    "po_number": "PO-2026-110",
+    "line_items": [
+      {
+        "description": "Desk Organiser",
+        "qty": 4,
+        "rate": 450.0,
+        "amount": 1800.0
+      },
+      {
+        "description": "Whiteboard Markers (set)",
+        "qty": 2,
+        "rate": 220.0,
+        "amount": 440.0
+      },
+      {
+        "description": "Sticky Notes Pad",
+        "qty": 2,
+        "rate": 35.0,
+        "amount": 70.0
+      }
+    ],
+    "subtotal": 2310.0,
+    "tax_rows": [
+      {
+        "label": "CGST @ 9%",
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 207.9
+      },
+      {
+        "label": "SGST @ 9%",
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 207.9
+      },
+      {
+        "label": "SGST @ 9%",
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 207.9
+      }
+    ],
+    "printed_total": 2933.7
+  },
+  "flags": [
+    {
+      "rule": "R5",
+      "severity": "High",
+      "message": "SGST row appears 2 times; tax may be charged more than once",
+      "field": "tax_rows",
+      "source": [
+        {
+          "page": 1,
+          "bbox": [
+            1502,
+            1523,
+            2261,
+            1555
+          ],
+          "line": "CGST @ 9% Rs. 207.90",
+          "ocr_conf": 89.0
+        },
+        {
+          "page": 1,
+          "bbox": [
+            1502,
+            1606,
+            2261,
+            1638
+          ],
+          "line": "SGST @ 9% Rs. 207.90",
+          "ocr_conf": 88.0
+        },
+        {
+          "page": 1,
+          "bbox": [
+            1502,
+            1689,
+            2261,
+            1721
+          ],
+          "line": "SGST @ 9% Rs. 207.90",
+          "ocr_conf": 88.0
+        }
+      ]
+    },
+    {
+      "rule": "R6",
+      "severity": "High",
+      "message": "Printed total Rs. 2,933.70 does not match subtotal + tax Rs. 2,725.80 (difference Rs. 207.90)",
+      "field": "printed_total",
+      "source": {
+        "page": 1,
+        "bbox": [
+          1501,
+          1795,
+          2262,
+          1836
+        ],
+        "line": "TOTAL Rs. 2,933.70",
+        "ocr_conf": 96.0
+      }
+    }
+  ],
+  "sources": {
+    "vendor_name": {
+      "page": 1,
+      "bbox": [
+        1858,
+        2217,
+        2271,
+        2253
+      ],
+      "line": "For Patel Stationery Mart",
+      "ocr_conf": 96.0
+    },
+    "vendor_gstin": {
+      "page": 1,
+      "bbox": [
+        210,
+        352,
+        2270,
+        401
+      ],
+      "line": "GSTIN: 27ABHPP7781L1Z9 Invoice Date: 17/10/2026",
+      "ocr_conf": 82.0
+    },
+    "invoice_no": {
+      "page": 1,
+      "bbox": [
+        209,
+        295,
+        2269,
+        342
+      ],
+      "line": "Thane, Maharashtra Invoice No: INV-2133",
+      "ocr_conf": 91.0
+    },
+    "invoice_date": {
+      "page": 1,
+      "bbox": [
+        210,
+        352,
+        2270,
+        401
+      ],
+      "line": "GSTIN: 27ABHPP7781L1Z9 Invoice Date: 17/10/2026",
+      "ocr_conf": 82.0
+    },
+    "due_date": {
+      "page": 1,
+      "bbox": [
+        1867,
+        428,
+        2270,
+        459
+      ],
+      "line": "Due Date: 16/11/2026",
+      "ocr_conf": 95.0
+    },
+    "po_number": {
+      "page": 1,
+      "bbox": [
+        1782,
+        485,
+        2269,
+        517
+      ],
+      "line": "PO Number: PO-2026-110",
+      "ocr_conf": 92.0
+    },
+    "line_items": [
+      {
+        "page": 1,
+        "bbox": [
+          220,
+          1123,
+          2261,
+          1163
+        ],
+        "line": "1 Desk Organiser 4 450.00 1,800.00",
+        "ocr_conf": 95.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          217,
+          1215,
+          2261,
+          1254
+        ],
+        "line": "2 Whiteboard Markers (set) 2 220.00 440.00",
+        "ocr_conf": 95.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          217,
+          1306,
+          2261,
+          1346
+        ],
+        "line": "3 Sticky Notes Pad 2 35.00 70.00",
+        "ocr_conf": 96.0
+      }
+    ],
+    "subtotal": {
+      "page": 1,
+      "bbox": [
+        1502,
+        1435,
+        2261,
+        1485
+      ],
+      "line": "Subtotal Rs. 2,310.00",
+      "ocr_conf": 95.0
+    },
+    "tax_rows": [
+      {
+        "page": 1,
+        "bbox": [
+          1502,
+          1523,
+          2261,
+          1555
+        ],
+        "line": "CGST @ 9% Rs. 207.90",
+        "ocr_conf": 89.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          1502,
+          1606,
+          2261,
+          1638
+        ],
+        "line": "SGST @ 9% Rs. 207.90",
+        "ocr_conf": 88.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          1502,
+          1689,
+          2261,
+          1721
+        ],
+        "line": "SGST @ 9% Rs. 207.90",
+        "ocr_conf": 88.0
+      }
+    ],
+    "printed_total": {
+      "page": 1,
+      "bbox": [
+        1501,
+        1795,
+        2262,
+        1836
+      ],
+      "line": "TOTAL Rs. 2,933.70",
+      "ocr_conf": 96.0
+    }
+  },
+  "audit_trail": [
+    {
+      "agent": "IngestionAgent",
+      "at": "2026-11-02T23:32:19",
+      "ms": 117
+    },
+    {
+      "agent": "OCRAgent",
+      "at": "2026-11-02T23:32:19",
+      "ms": 302
+    },
+    {
+      "agent": "ClassificationAgent",
+      "at": "2026-11-02T23:32:19",
+      "ms": 0
+    },
+    {
+      "agent": "ExtractionAgent",
+      "at": "2026-11-02T23:32:19",
+      "ms": 0
+    },
+    {
+      "agent": "ValidationAgent",
+      "at": "2026-11-02T23:32:19",
+      "ms": 0
+    }
+  ],
+  "processing_seconds": 0.42,
+  "source_ref": "invoice_010.pdf#p1"
+}

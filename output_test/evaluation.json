@@ -1,0 +1,258 @@
+{
+  "documents": 24,
+  "status_accuracy": 1.0,
+  "classification_accuracy": 1.0,
+  "planted_errors_caught": "10/11",
+  "clean_invoices_wrongly_flagged": "0/11",
+  "field_accuracy_overall": 0.995,
+  "field_accuracy": {
+    "vendor_name": 1.0,
+    "vendor_gstin": 1.0,
+    "invoice_no": 1.0,
+    "invoice_date": 1.0,
+    "due_date": 1.0,
+    "po_number": 1.0,
+    "subtotal": 1.0,
+    "printed_total": 1.0,
+    "line_items": 1.0,
+    "tax_rows": 0.955
+  },
+  "confusion_matrix": {
+    "auto_approved": {
+      "auto_approved": 11,
+      "needs_review": 0,
+      "rejected": 0
+    },
+    "needs_review": {
+      "auto_approved": 0,
+      "needs_review": 11,
+      "rejected": 0
+    },
+    "rejected": {
+      "auto_approved": 0,
+      "needs_review": 0,
+      "rejected": 2
+    }
+  },
+  "per_document": [
+    {
+      "file": "invoice_001.pdf",
+      "expected": "auto_approved",
+      "got": "auto_approved",
+      "planted_error": "none",
+      "rules": [],
+      "wrong_fields": []
+    },
+    {
+      "file": "invoice_002.pdf",
+      "expected": "needs_review",
+      "got": "needs_review",
+      "planted_error": "unregistered_vendor",
+      "rules": [
+        "R8"
+      ],
+      "wrong_fields": []
+    },
+    {
+      "file": "invoice_003.pdf",
+      "expected": "needs_review",
+      "got": "needs_review",
+      "planted_error": "invalid_po_number",
+      "rules": [
+        "R9"
+      ],
+      "wrong_fields": []
+    },
+    {
+      "file": "invoice_004.pdf",
+      "expected": "auto_approved",
+      "got": "auto_approved",
+      "planted_error": "none",
+      "rules": [],
+      "wrong_fields": []
+    },
+    {
+      "file": "invoice_005.pdf",
+      "expected": "auto_approved",
+      "got": "auto_approved",
+      "planted_error": "none",
+      "rules": [],
+      "wrong_fields": []
+    },
+    {
+      "file": "invoice_006.pdf",
+      "expected": "needs_review",
+      "got": "needs_review",
+      "planted_error": "duplicate_tax_row",
+      "rules": [
+        "R5",
+        "R6"
+      ],
+      "wrong_fields": []
+    },
+    {
+      "file": "invoice_007.pdf",
+      "expected": "needs_review",
+      "got": "needs_review",
+      "planted_error": "total_mismatch",
+      "rules": [
+        "R6"
+      ],
+      "wrong_fields": []
+    },
+    {
+      "file": "invoice_008_scan.png",
+      "expected": "needs_review",
+      "got": "needs_review",
+      "planted_error": "due_before_invoice_date",
+      "rules": [
+        "R7"
+      ],
+      "wrong_fields": []
+    },
+    {
+      "file": "invoice_009.pdf",
+      "expected": "auto_approved",
+      "got": "auto_approved",
+      "planted_error": "none",
+      "rules": [],
+      "wrong_fields": []
+    },
+    {
+      "file": "invoice_010.pdf",
+      "expected": "auto_approved",
+      "got": "auto_approved",
+      "planted_error": "none",
+      "rules": [],
+      "wrong_fields": []
+    },
+    {
+      "file": "invoice_011_photo.jpg",
+      "expected": "auto_approved",
+      "got": "auto_approved",
+      "planted_error": "none",
+      "rules": [],
+      "wrong_fields": []
+    },
+    {
+      "file": "invoice_012_photo.jpg",
+      "expected": "auto_approved",
+      "got": "auto_approved",
+      "planted_error": "none",
+      "rules": [],
+      "wrong_fields": []
+    },
+    {
+      "file": "invoice_013_scan.png",
+      "expected": "auto_approved",
+      "got": "auto_approved",
+      "planted_error": "none",
+      "rules": [],
+      "wrong_fields": []
+    },
+    {
+      "file": "invoice_014_scan.png",
+      "expected": "auto_approved",
+      "got": "auto_approved",
+      "planted_error": "none",
+      "rules": [],
+      "wrong_fields": []
+    },
+    {
+      "file": "invoice_015_scan.png",
+      "expected": "needs_review",
+      "got": "needs_review",
+      "planted_error": "total_mismatch",
+      "rules": [
+        "R6"
+      ],
+      "wrong_fields": []
+    },
+    {
+      "file": "invoice_016.pdf",
+      "expected": "auto_approved",
+      "got": "auto_approved",
+      "planted_error": "none",
+      "rules": [],
+      "wrong_fields": []
+    },
+    {
+      "file": "invoice_017_scan.png",
+      "expected": "auto_approved",
+      "got": "auto_approved",
+      "planted_error": "none",
+      "rules": [],
+      "wrong_fields": []
+    },
+    {
+      "file": "invoice_018_photo.jpg",
+      "expected": "needs_review",
+      "got": "needs_review",
+      "planted_error": "unregistered_vendor",
+      "rules": [
+        "R8"
+      ],
+      "wrong_fields": []
+    },
+    {
+      "file": "invoice_019.pdf",
+      "expected": "needs_review",
+      "got": "needs_review",
+      "planted_error": "high_value_over_50000",
+      "rules": [
+        "R10"
+      ],
+      "wrong_fields": []
+    },
+    {
+      "file": "invoice_020_photo.jpg",
+      "expected": "needs_review",
+      "got": "needs_review",
+      "planted_error": "tax_rate_error",
+      "rules": [
+        "R1",
+        "R6"
+      ],
+      "wrong_fields": [
+        "tax_rows"
+      ]
+    },
+    {
+      "file": "invoice_021.pdf",
+      "expected": "needs_review",
+      "got": "needs_review",
+      "planted_error": "missing_invoice_number",
+      "rules": [
+        "R1"
+      ],
+      "wrong_fields": []
+    },
+    {
+      "file": "invoice_022_scan.png",
+      "expected": "needs_review",
+      "got": "needs_review",
+      "planted_error": "duplicate_tax_row",
+      "rules": [
+        "R5",
+        "R6"
+      ],
+      "wrong_fields": []
+    },
+    {
+      "file": "other_001_scan.png",
+      "expected": "rejected",
+      "got": "rejected",
+      "planted_error": "not_an_invoice",
+      "rules": [],
+      "wrong_fields": []
+    },
+    {
+      "file": "other_002.pdf",
+      "expected": "rejected",
+      "got": "rejected",
+      "planted_error": "not_an_invoice",
+      "rules": [],
+      "wrong_fields": []
+    }
+  ]
+}

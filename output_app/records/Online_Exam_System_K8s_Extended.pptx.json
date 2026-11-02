@@ -1,0 +1,35 @@
+{
+  "file_name": "Online_Exam_System_K8s_Extended.pptx.pdf",
+  "doc_type": "other",
+  "status": "rejected",
+  "priority": null,
+  "reason": "Document is not an invoice (unknown detected)",
+  "ocr_confidence": 84.8,
+  "deskew_applied": true,
+  "dpi_used": 300,
+  "page_count": 13,
+  "audit_trail": [
+    {
+      "agent": "IngestionAgent",
+      "at": "2026-11-02T23:32:58",
+      "ms": 9331
+    },
+    {
+      "agent": "OCRAgent",
+      "at": "2026-11-02T23:33:14",
+      "ms": 15365
+    },
+    {
+      "agent": "ClassificationAgent",
+      "at": "2026-11-02T23:33:14",
+      "ms": 0
+    },
+    {
+      "agent": "Orchestrator",
+      "event": "skipped_extraction",
+      "reason": "not an invoice"
+    }
+  ],
+  "processing_seconds": 24.7,
+  "source_ref": "Online_Exam_System_K8s_Extended.pptx.pdf#p1"
+}

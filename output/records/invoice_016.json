@@ -1,0 +1,234 @@
+{
+  "file_name": "invoice_016.pdf",
+  "doc_type": "invoice",
+  "status": "auto_approved",
+  "priority": null,
+  "reason": "All checks passed",
+  "ocr_confidence": 93.9,
+  "deskew_applied": false,
+  "dpi_used": 300,
+  "page_count": 1,
+  "fields": {
+    "vendor_name": "Om Sai Electricals",
+    "vendor_gstin": "27AACFO3390M1Z2",
+    "invoice_no": "INV-9856",
+    "invoice_date": "2026-09-07",
+    "due_date": "2026-09-22",
+    "po_number": "PO-2026-116",
+    "line_items": [
+      {
+        "description": "Extension Board 6-way",
+        "qty": 4,
+        "rate": 550.0,
+        "amount": 2200.0
+      },
+      {
+        "description": "MCB 32A",
+        "qty": 2,
+        "rate": 380.0,
+        "amount": 760.0
+      },
+      {
+        "description": "Ceiling Fan",
+        "qty": 3,
+        "rate": 2100.0,
+        "amount": 6300.0
+      }
+    ],
+    "subtotal": 9260.0,
+    "tax_rows": [
+      {
+        "label": "CGST @ 9%",
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 833.4
+      },
+      {
+        "label": "SGST @ 9%",
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 833.4
+      }
+    ],
+    "printed_total": 10926.8
+  },
+  "flags": [],
+  "sources": {
+    "vendor_name": {
+      "page": 1,
+      "bbox": [
+        1902,
+        2134,
+        2270,
+        2163
+      ],
+      "line": "For Om Sai Electricals",
+      "ocr_conf": 95.0
+    },
+    "vendor_gstin": {
+      "page": 1,
+      "bbox": [
+        210,
+        348,
+        2270,
+        417
+      ],
+      "line": "GSTIN: 27AACFO3390M 122 Invoice Date: 07/09/2026",
+      "ocr_conf": 47.0
+    },
+    "invoice_no": {
+      "page": 1,
+      "bbox": [
+        212,
+        295,
+        2270,
+        342
+      ],
+      "line": "Pune, Maharashtra Invoice No: INV-9856",
+      "ocr_conf": 92.0
+    },
+    "invoice_date": {
+      "page": 1,
+      "bbox": [
+        210,
+        348,
+        2270,
+        417
+      ],
+      "line": "GSTIN: 27AACFO3390M 122 Invoice Date: 07/09/2026",
+      "ocr_conf": 47.0
+    },
+    "due_date": {
+      "page": 1,
+      "bbox": [
+        1867,
+        428,
+        2270,
+        459
+      ],
+      "line": "Due Date: 22/09/2026",
+      "ocr_conf": 95.0
+    },
+    "po_number": {
+      "page": 1,
+      "bbox": [
+        1782,
+        485,
+        2270,
+        517
+      ],
+      "line": "PO Number: PO-2026-116",
+      "ocr_conf": 92.0
+    },
+    "line_items": [
+      {
+        "page": 1,
+        "bbox": [
+          220,
+          1124,
+          2261,
+          1163
+        ],
+        "line": "1 Extension Board 6-way 4 550.00 2,200.00",
+        "ocr_conf": 92.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          217,
+          1214,
+          2261,
+          1246
+        ],
+        "line": "2 MCB 32A 2 380.00 760.00",
+        "ocr_conf": 92.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          217,
+          1306,
+          2261,
+          1346
+        ],
+        "line": "3 Ceiling Fan 3 2,100.00 6,300.00",
+        "ocr_conf": 95.0
+      }
+    ],
+    "subtotal": {
+      "page": 1,
+      "bbox": [
+        1502,
+        1435,
+        2261,
+        1485
+      ],
+      "line": "Subtotal Rs. 9,260.00",
+      "ocr_conf": 95.0
+    },
+    "tax_rows": [
+      {
+        "page": 1,
+        "bbox": [
+          1502,
+          1523,
+          2261,
+          1555
+        ],
+        "line": "CGST @ 9% Rs. 833.40",
+        "ocr_conf": 89.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          1502,
+          1606,
+          2261,
+          1638
+        ],
+        "line": "SGST @ 9% Rs. 833.40",
+        "ocr_conf": 88.0
+      }
+    ],
+    "printed_total": {
+      "page": 1,
+      "bbox": [
+        1501,
+        1711,
+        2262,
+        1752
+      ],
+      "line": "TOTAL Rs. 10,926.80",
+      "ocr_conf": 96.0
+    }
+  },
+  "audit_trail": [
+    {
+      "agent": "IngestionAgent",
+      "at": "2026-11-02T23:32:22",
+      "ms": 120
+    },
+    {
+      "agent": "OCRAgent",
+      "at": "2026-11-02T23:32:22",
+      "ms": 388
+    },
+    {
+      "agent": "ClassificationAgent",
+      "at": "2026-11-02T23:32:22",
+      "ms": 0
+    },
+    {
+      "agent": "ExtractionAgent",
+      "at": "2026-11-02T23:32:22",
+      "ms": 0
+    },
+    {
+      "agent": "ValidationAgent",
+      "at": "2026-11-02T23:32:22",
+      "ms": 0
+    }
+  ],
+  "processing_seconds": 0.51,
+  "source_ref": "invoice_016.pdf#p1"
+}

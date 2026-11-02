@@ -1,0 +1,251 @@
+{
+  "file_name": "invoice_017_scan.png",
+  "doc_type": "invoice",
+  "status": "auto_approved",
+  "priority": null,
+  "reason": "All checks passed",
+  "ocr_confidence": 88.4,
+  "deskew_applied": true,
+  "dpi_used": 300,
+  "page_count": 1,
+  "fields": {
+    "vendor_name": "Deccan Cleaning Supplies",
+    "vendor_gstin": "27AAJFD5530R1Z6",
+    "invoice_no": "INV-7364",
+    "invoice_date": "2026-10-17",
+    "due_date": "2026-11-16",
+    "po_number": "PO-2026-117",
+    "line_items": [
+      {
+        "description": "Floor Cleaner 5L",
+        "qty": 2,
+        "rate": 480.0,
+        "amount": 960.0
+      },
+      {
+        "description": "Garbage Bags (pack)",
+        "qty": 2,
+        "rate": 120.0,
+        "amount": 240.0
+      },
+      {
+        "description": "Mop Set",
+        "qty": 5,
+        "rate": 650.0,
+        "amount": 3250.0
+      },
+      {
+        "description": "Hand Wash 5L",
+        "qty": 12,
+        "rate": 520.0,
+        "amount": 6240.0
+      }
+    ],
+    "subtotal": 10690.0,
+    "tax_rows": [
+      {
+        "label": "CGST @ 9%",
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 962.1
+      },
+      {
+        "label": "SGST @ 9%",
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 962.1
+      }
+    ],
+    "printed_total": 12614.2
+  },
+  "flags": [],
+  "sources": {
+    "vendor_name": {
+      "page": 1,
+      "bbox": [
+        1269,
+        1549,
+        1604,
+        1574
+      ],
+      "line": "For Deccan Cleaning Supplies",
+      "ocr_conf": 96.0
+    },
+    "vendor_gstin": {
+      "page": 1,
+      "bbox": [
+        232,
+        298,
+        1606,
+        337
+      ],
+      "line": "GSTIN: 27AAJFD5530R1Z6 \u2018 Invoice Date: 17/10/2026",
+      "ocr_conf": 54.0
+    },
+    "invoice_no": {
+      "page": 1,
+      "bbox": [
+        233,
+        260,
+        1606,
+        294
+      ],
+      "line": "Pune, Maharashtra : Invoice No: INV-7364",
+      "ocr_conf": 46.0
+    },
+    "invoice_date": {
+      "page": 1,
+      "bbox": [
+        232,
+        298,
+        1606,
+        337
+      ],
+      "line": "GSTIN: 27AAJFD5530R1Z6 \u2018 Invoice Date: 17/10/2026",
+      "ocr_conf": 54.0
+    },
+    "due_date": {
+      "page": 1,
+      "bbox": [
+        1337,
+        350,
+        1606,
+        372
+      ],
+      "line": "Due Date: 16/11/2026",
+      "ocr_conf": 96.0
+    },
+    "po_number": {
+      "page": 1,
+      "bbox": [
+        1280,
+        389,
+        1606,
+        411
+      ],
+      "line": "PO Number: PO-2026-117",
+      "ocr_conf": 91.0
+    },
+    "line_items": [
+      {
+        "page": 1,
+        "bbox": [
+          238,
+          812,
+          1600,
+          837
+        ],
+        "line": "1 Floor Cleaner 5L 2 480.00 960.00",
+        "ocr_conf": 86.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          236,
+          873,
+          1600,
+          901
+        ],
+        "line": "2 Garbage Bags (pack) 2 120.00 240.00",
+        "ocr_conf": 95.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          234,
+          935,
+          1600,
+          961
+        ],
+        "line": "3 Mop Set 5 650.00 3,250.00",
+        "ocr_conf": 95.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          236,
+          995,
+          1600,
+          1022
+        ],
+        "line": "4 Hand Wash 5L 12 520.00 6,240.00",
+        "ocr_conf": 56.0
+      }
+    ],
+    "subtotal": {
+      "page": 1,
+      "bbox": [
+        1092,
+        1080,
+        1599,
+        1118
+      ],
+      "line": "Subtotal Rs. 10,690.00",
+      "ocr_conf": 92.0
+    },
+    "tax_rows": [
+      {
+        "page": 1,
+        "bbox": [
+          1092,
+          1141,
+          1599,
+          1165
+        ],
+        "line": "CGST @ 9% Rs. 962.10",
+        "ocr_conf": 90.0
+      },
+      {
+        "page": 1,
+        "bbox": [
+          1092,
+          1196,
+          1599,
+          1219
+        ],
+        "line": "SGST @ 9% Rs. 962.10",
+        "ocr_conf": 91.0
+      }
+    ],
+    "printed_total": {
+      "page": 1,
+      "bbox": [
+        1091,
+        1266,
+        1599,
+        1294
+      ],
+      "line": "TOTAL Rs. 12;614.20",
+      "ocr_conf": 86.0
+    }
+  },
+  "audit_trail": [
+    {
+      "agent": "IngestionAgent",
+      "at": "2026-11-02T23:30:02",
+      "ms": 92
+    },
+    {
+      "agent": "OCRAgent",
+      "at": "2026-11-02T23:30:03",
+      "ms": 608
+    },
+    {
+      "agent": "ClassificationAgent",
+      "at": "2026-11-02T23:30:03",
+      "ms": 0
+    },
+    {
+      "agent": "ExtractionAgent",
+      "at": "2026-11-02T23:30:03",
+      "ms": 0
+    },
+    {
+      "agent": "ValidationAgent",
+      "at": "2026-11-02T23:30:03",
+      "ms": 0
+    }
+  ],
+  "processing_seconds": 0.7,
+  "source_ref": "invoice_017_scan.png#p1"
+}

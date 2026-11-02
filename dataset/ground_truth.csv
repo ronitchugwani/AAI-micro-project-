@@ -1,0 +1,25 @@
+file_name,format,doc_type,vendor_name,invoice_no,invoice_date,due_date,po_number,subtotal,printed_total,correct_total,planted_error,expected_status,error_note
+invoice_001_photo.jpg,photo,invoice,Kumar Packaging Industries,INV-4527,2026-09-18,2026-10-03,PO-2026-101,11455.0,13860.55,13516.9,tax_rate_error,needs_review,CGST amount is computed at 12% although the label says 9%.
+invoice_002.pdf,pdf,invoice,Lakshmi Computer Services,INV-5803,2026-09-06,2026-10-21,PO-2026-102,9636.0,11370.48,11370.48,none,auto_approved,
+invoice_003.pdf,pdf,invoice,Sharma Furniture Works,INV-3664,2026-10-11,2026-11-10,PO-2026-103,39400.0,46492.0,46492.0,none,auto_approved,
+invoice_004.pdf,pdf,invoice,Balaji Enterprises,INV-5422,2026-09-30,2026-10-30,PO-2026-104,21100.0,24898.0,24898.0,unregistered_vendor,needs_review,Vendor is not in vendors.csv.
+invoice_005_photo.jpg,photo,invoice,Kumar Packaging Industries,INV-6155,2026-09-14,2026-10-29,PO-2026-105,7440.0,8779.2,8779.2,none,auto_approved,
+invoice_006_scan.png,scan,invoice,Kumar Packaging Industries,INV-1771,2026-10-02,2026-10-17,PO-2026-106,8155.0,10622.9,9622.9,total_mismatch,needs_review,"Printed total is Rs.1,000.00 higher than subtotal + tax."
+invoice_007_photo.jpg,photo,invoice,Royal Tech Distributors,INV-9669,2026-10-09,2026-11-08,PO-2026-107,6500.0,7670.0,7670.0,unregistered_vendor,needs_review,Vendor is not in vendors.csv.
+invoice_008.pdf,pdf,invoice,Lakshmi Computer Services,INV-9317,2026-10-03,2026-10-18,PO-2026-108,45140.0,53265.2,53265.2,high_value_over_50000,needs_review,"Invoice total exceeds the Rs.50,000 approval threshold."
+invoice_009_scan.png,scan,invoice,Patel Stationery Mart,INV-6310,2026-09-01,2026-10-16,PO-2026-109,11605.0,13693.9,13693.9,none,auto_approved,
+invoice_010.pdf,pdf,invoice,Patel Stationery Mart,INV-2133,2026-10-17,2026-11-16,PO-2026-110,2310.0,2933.7,2725.8,duplicate_tax_row,needs_review,"SGST row printed twice, inflating total by Rs.207.90."
+invoice_011_scan.png,scan,invoice,Om Sai Electricals,INV-7932,2026-10-26,2026-10-21,PO-2026-111,7440.0,8779.2,8779.2,due_before_invoice_date,needs_review,Due date is earlier than invoice date.
+invoice_012_scan.png,scan,invoice,Kumar Packaging Industries,INV-6539,2026-09-15,2026-09-30,PO-2026-112,21720.0,27584.4,25629.6,duplicate_tax_row,needs_review,"SGST row printed twice, inflating total by Rs.1,954.80."
+invoice_013_photo.jpg,photo,invoice,Kumar Packaging Industries,INV-4899,2026-09-05,2026-10-20,PO-2026-113,8190.0,9664.2,9664.2,none,auto_approved,
+invoice_014.pdf,pdf,invoice,Mehta Printing Press,INV-8062,2026-09-07,2026-10-22,PO-2026-114,9200.0,10856.0,10856.0,none,auto_approved,
+invoice_015.pdf,pdf,invoice,Sharma Furniture Works,INV-4116,2026-09-16,2026-10-01,PO-2026-115,33400.0,41912.0,39412.0,total_mismatch,needs_review,"Printed total is Rs.2,500.00 higher than subtotal + tax."
+invoice_016.pdf,pdf,invoice,Om Sai Electricals,INV-9856,2026-09-07,2026-09-22,PO-2026-116,9260.0,10926.8,10926.8,none,auto_approved,
+invoice_017.pdf,pdf,invoice,Shree Ganesh Traders,,2026-10-01,2026-10-16,PO-2026-117,9800.0,11564.0,11564.0,missing_invoice_number,needs_review,Invoice number field is blank.
+invoice_018_scan.png,scan,invoice,Shree Ganesh Traders,INV-5673,2026-10-21,2026-11-20,PO-2026-118,1700.0,2006.0,2006.0,none,auto_approved,
+invoice_019_scan.png,scan,invoice,Mehta Printing Press,INV-9883,2026-10-08,2026-11-22,PO-2026-119,8600.0,10148.0,10148.0,none,auto_approved,
+invoice_020.pdf,pdf,invoice,Sharma Furniture Works,INV-2312,2026-09-04,2026-10-19,PO-2026-120,24900.0,29382.0,29382.0,none,auto_approved,
+invoice_021.pdf,pdf,invoice,Om Sai Electricals,INV-1651,2026-10-07,2026-10-22,PO-2026-121,3380.0,3988.4,3988.4,none,auto_approved,
+invoice_022.pdf,pdf,invoice,Patel Stationery Mart,INV-5915,2026-09-26,2026-10-11,PO-2026-958,5840.0,6891.2,6891.2,invalid_po_number,needs_review,PO number does not exist in purchase_orders.csv.
+other_001_scan.png,scan,delivery_challan,Sharma Furniture Works,,,,,,,,not_an_invoice,rejected,Not an invoice; classifier should reject.
+other_002.pdf,pdf,quotation_letter,Patel Stationery Mart,,,,,,,,not_an_invoice,rejected,Not an invoice; classifier should reject.

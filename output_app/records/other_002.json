@@ -1,0 +1,35 @@
+{
+  "file_name": "other_002.pdf",
+  "doc_type": "other",
+  "status": "rejected",
+  "priority": null,
+  "reason": "Document is not an invoice (quotation detected)",
+  "ocr_confidence": 95.9,
+  "deskew_applied": false,
+  "dpi_used": 300,
+  "page_count": 1,
+  "audit_trail": [
+    {
+      "agent": "IngestionAgent",
+      "at": "2026-11-02T23:35:04",
+      "ms": 155
+    },
+    {
+      "agent": "OCRAgent",
+      "at": "2026-11-02T23:35:04",
+      "ms": 243
+    },
+    {
+      "agent": "ClassificationAgent",
+      "at": "2026-11-02T23:35:04",
+      "ms": 0
+    },
+    {
+      "agent": "Orchestrator",
+      "event": "skipped_extraction",
+      "reason": "not an invoice"
+    }
+  ],
+  "processing_seconds": 0.4,
+  "source_ref": "other_002.pdf#p1"
+}
